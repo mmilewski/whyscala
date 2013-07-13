@@ -31,10 +31,13 @@ So why?
     * Actors, Futures
     * Partially applied functions, Currying
     * DSL
-
 * Intros
    * [A Brief Intro to Scala](http://www.slideshare.net/tpunder/a-brief-intro-to-scala)
    * [Working Hard to Keep It Simple](http://www.youtube.com/watch?v=3jg1AheF4n0)
+* Rod Johnson (creator of Spring framework) joined [Typesafe](http://typesafe.com/company)
+
+> Today’s computing environments are moving towards multicore hardware and cloud computing workloads. Typesafe is strategically positioned to provide innovate solutions with its modern Scala and Akka-based software stack and developer tools for the next wave of applications.
+> *Rod Johnson*
 
 
 What other say?
@@ -42,6 +45,7 @@ What other say?
 
 > I can honestly say if someone had shown me the Programming in Scala book by by Martin Odersky, Lex Spoon & Bill Venners back in 2003 I'd probably have never created Groovy.
 > [*James Strachan*](http://macstrac.blogspot.ca/2009/04/scala-as-long-term-replacement-for.html)
+
 
 * Confessions of a Ruby Developer Whose Heart Was Stolen by Scala http://parleys.com/play/51c178ece4b0d38b54f46217/
 * Intel hosts Dr. Martin Odersky presenting Scala 2.10 http://www.youtube.com/watch?v=hiurd7KaSEI

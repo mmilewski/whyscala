@@ -55,7 +55,7 @@ Concise code...
     goForABearWith(folks)    
     ```
     
-* Uses collection's methods where appropriate
+* Uses collection's methods to get the job done and avoid errors.
     ```java
     // java
     boolean nameHasUpperCase = false;

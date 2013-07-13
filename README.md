@@ -35,10 +35,23 @@ So why?
    * [A Brief Intro to Scala](http://www.slideshare.net/tpunder/a-brief-intro-to-scala)
    * [Working Hard to Keep It Simple](http://www.youtube.com/watch?v=3jg1AheF4n0)
 
+
+What other say?
+================
+
+> I can honestly say if someone had shown me the Programming in Scala book by by Martin Odersky, Lex Spoon & Bill Venners back in 2003 I'd probably have never created Groovy.
+> [*James Strachan*](http://macstrac.blogspot.ca/2009/04/scala-as-long-term-replacement-for.html)
+
+* Confessions of a Ruby Developer Whose Heart Was Stolen by Scala http://parleys.com/play/51c178ece4b0d38b54f46217/
+* Intel hosts Dr. Martin Odersky presenting Scala 2.10 http://www.youtube.com/watch?v=hiurd7KaSEI
+* [Scala Videos](http://parleys.com/search/scala) and [Scala Days 2013](http://parleys.com/channel/51ae1022e4b01033a7e4b6ca/presentations)
+
+
 Easy to start
 =============
 * Very similar to Java, you don't have to start with advanced stuff during the first day.
 * Tutorials geared for people coming from... http://docs.scala-lang.org/tutorials/
+
 
 Better code
 ===========
@@ -133,12 +146,6 @@ Test your ideas
 * Online using Scala Kata http://www.scalakata.com/
 * Locally using Scala REPL http://bcomposes.wordpress.com/2011/08/22/first-steps-in-scala-for-first-time-programmers-part-1/
 
-
-What other say?
-================
-* Confessions of a Ruby Developer Whose Heart Was Stolen by Scala http://parleys.com/play/51c178ece4b0d38b54f46217/
-* Intel hosts Dr. Martin Odersky presenting Scala 2.10 http://www.youtube.com/watch?v=hiurd7KaSEI
-* [Scala Videos](http://parleys.com/search/scala) and [Scala Days 2013](http://parleys.com/channel/51ae1022e4b01033a7e4b6ca/presentations)
 
 Where can I learn?
 ==================

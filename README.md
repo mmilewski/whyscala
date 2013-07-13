@@ -25,6 +25,7 @@ So why?
     * Immutability is encouraged, but not required
     * Some developers could already try [functional programming with Guava](https://code.google.com/p/guava-libraries/wiki/FunctionalExplained)
 * Access to Java classes, like `File` or `Date`
+* No more `NullPointerException`! Unless you invoke Java code :P
 * Has advanced concepts, when you are ready
     * Implicit conversions
     * Passed-by-name parameters

@@ -138,7 +138,7 @@ What other say?
 ================
 * Confessions of a Ruby Developer Whose Heart Was Stolen by Scala http://parleys.com/play/51c178ece4b0d38b54f46217/
 * Intel hosts Dr. Martin Odersky presenting Scala 2.10 http://www.youtube.com/watch?v=hiurd7KaSEI
-
+* @Parleys [Scala videos](http://parleys.com/search/scala) [Scala Days 2013](http://parleys.com/channel/51ae1022e4b01033a7e4b6ca/presentations)
 
 Where can I learn?
 ==================

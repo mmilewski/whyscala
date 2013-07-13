@@ -55,6 +55,20 @@ Concise code...
     goForABearWith(folks)    
     ```
     
+* Uses collection's methods where appropriate
+    ```java
+    // java
+    boolean nameHasUpperCase = false;
+    for (int i = 0; i < name.length(); ++i) { 
+        if (Character.isUpperCase(name.charAt(i))) { 
+            nameHasUpperCase = true; 
+            break; 
+        }    
+    }
+
+    // scala
+    val nameHasUpperCase = name.exists(_.isUpperCase) 
+    ```
 
 * Uses compiler (not developer) to generate boilerplate
     ```scala

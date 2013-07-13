@@ -139,8 +139,8 @@ Concise code...
     ```
 
 
-Access to Java libraries
-========================
+Access to Java libraries is easy
+================================
 
 ```scala
 import java.util.Date

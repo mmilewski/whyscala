@@ -4,13 +4,14 @@
 So why?
 =======
 
+* Fast to first product and scalable afterwards
 * Static typing - is a blessing not a curse
 * Concise code
     * Inlined/Anonymous functions  `val man = people.find(_.isMan)     // same as people.find(person => person.isMan)`
     * Number of [useful methods](http://www.scala-lang.org/api/current/index.html#scala.collection.immutable.List) in collection
     * I write types where I want and where I have to as opposed to everywhere, which produces long code
 * Less errors
-    * concise code (see above)
+    * Concise code (see above)
     * Encouraged immutability
 * Functions and Tuples are first-class citizens
 * Hybrid of object oriented and functinal programming
@@ -26,10 +27,13 @@ So why?
 * Has advanced concepts, when you are ready
     * Implicit conversions
     * Passed-by-name parameters
-    * Actors
+    * Actors, Futures
     * Partially applied functions, Currying
-* [A Brief Intro to Scala](http://www.slideshare.net/tpunder/a-brief-intro-to-scala)
+    * DSL
 
+* Intros
+   * [A Brief Intro to Scala](http://www.slideshare.net/tpunder/a-brief-intro-to-scala)
+   * [Working Hard to Keep It Simple](http://www.youtube.com/watch?v=3jg1AheF4n0)
 
 Easy to start
 =============

@@ -41,7 +41,7 @@ So why?
 > *Rod Johnson*
 
 
-What other say?
+What others say?
 ================
 
 > I can honestly say if someone had shown me the Programming in Scala book by by Martin Odersky, Lex Spoon & Bill Venners back in 2003 I'd probably have never created Groovy.

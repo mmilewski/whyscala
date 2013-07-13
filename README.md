@@ -159,3 +159,4 @@ Where can I learn?
 * Twitter's Scala School http://twitter.github.io/scala_school/
 * Twitter's Effective Scala http://twitter.github.io/effectivescala/
 * Martin Odersky's Scala With Style http://www.youtube.com/watch?v=iPitDNUNyR0&t=50s
+* [Books On Scala](http://www.scala-lang.org/node/959)

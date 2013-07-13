@@ -62,9 +62,10 @@ Easy to start
 Better code
 ===========
 
-Concise code... 
----------------
+Concise and clean code... 
+-------------------------
 
+* Keeps you away from dumb errors (off-by-one?)
 * Contains only the essential parts. If you need to filter a collection, you should be asked only for a predicate.
     ```java
     // java
@@ -84,7 +85,7 @@ Concise code...
     val (underage, adult) = people.partition(_.age < 18)
     ```
 
-* Uses inlined functions to get the job done
+* Uses anonymous functions to get the job done
     ```scala
     case class Person(val name:String, val age:Int, val isMan: Boolean)
     val people = List(new Person("Marcin", 20, true), new Person("Dorota", 10, false), new Person("Peter", 16, true))
@@ -106,21 +107,6 @@ Concise code...
     goForABearWith(folks)    
     ```
     
-* Uses collection's methods to get the job done and avoid errors.
-    ```java
-    // java
-    boolean nameHasUpperCase = false;
-    for (int i = 0; i < name.length(); ++i) { 
-        if (Character.isUpperCase(name.charAt(i))) { 
-            nameHasUpperCase = true; 
-            break; 
-        }    
-    }
-
-    // scala
-    val nameHasUpperCase = name.exists(_.isUpperCase) 
-    ```
-
 * Uses compiler (not developer) to generate boilerplate
     ```scala
     class Person(val name: String)
@@ -136,6 +122,46 @@ Concise code...
     val p = new Person("Marcin")
     p.name                 // Marcin
     p.getName              // Marcin
+    ```
+
+
+Getting things done
+-------------------
+
+* Divide a group of students from Canada by top grade and have them sorted by name. [src](http://parleys.com/play/5148922b0364bc17fc56c890/chapter35/about)
+
+    ```java
+    // java
+    
+    //
+    // ... this is a place for your code ...
+    //
+    ```
+    
+    
+    ```scala
+    // scala
+    val (topGrades, otherGrades) = studends.filter(_.country == "CA")
+                                           .sortBy(_.name)
+                                           .partition(_.grade >= 9)
+    ```
+
+
+* Check if a string contains any uppercase character.
+    ```java
+    // java
+    boolean nameHasUpperCase = false;
+    for (int i = 0; i < name.length(); ++i) { 
+        if (Character.isUpperCase(name.charAt(i))) { 
+            nameHasUpperCase = true; 
+            break; 
+        }    
+    }
+    ```
+
+    ```scala
+    // scala
+    val nameHasUpperCase = name.exists(_.isUpperCase) 
     ```
 
 

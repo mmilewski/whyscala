@@ -20,13 +20,13 @@ So why?
 * I can operate on `BigInteger` using + and * rather than add() or multiply(). [See here](http://daily-scala.blogspot.ca/2009/11/bigint-in-scala.html)
 * Default parameters and named parameters
 * I can define auxiliary function inside a method
-* Easy to understand by Java developers.
+* Easy to understand by Java developers:
     * You can write Java-style code, and then improve it every day (this is not true for e.g. Haskell)
     * Immutability is encouraged, but not required
     * Some developers could already try [functional programming with Guava](https://code.google.com/p/guava-libraries/wiki/FunctionalExplained)
 * Java interoperability, so you can use Java classes, like `File` or `Date`
 * No more `NullPointerException`! Unless you invoke Java code :P
-* Has advanced concepts, when you are ready
+* Advanced concepts available, when you are ready:
     * Implicit conversions
     * Passed-by-name parameters
     * Actors, Futures

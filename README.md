@@ -13,6 +13,7 @@ So why?
 * Less errors
     * Concise code (see above)
     * Encouraged immutability
+    * Code is checked by compiler
 * Functions and Tuples are first-class citizens
 * Hybrid of object oriented and functinal programming
 * Pattern matching

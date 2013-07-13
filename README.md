@@ -1,6 +1,34 @@
 > Any fool can write code that a computer can understand.  Good programmers write code that humans can understand.  
 > *Martin Fowler*
 
+So why?
+=======
+
+* Static typing - is a blessing not a curse
+* Concise code
+    * Inlined/Anonymous functions  `val man = people.find(_.isMan)     // same as people.find(person => person.isMan)`
+    * Number of [useful methods](http://www.scala-lang.org/api/current/index.html#scala.collection.immutable.List) in collection
+    * I write types where I want and where I have to as opposed to everywhere, which produces long code
+* Less errors
+    * concise code (see above)
+    * Encouraged immutability
+* Functions and Tuples are first-class citizens
+* Hybrid of object oriented and functinal programming
+* Pattern matching
+* I can operate on `BigInteger` using + and * rather than add() or multiply(). [See here](http://daily-scala.blogspot.ca/2009/11/bigint-in-scala.html)
+* Default parameters and named parameters
+* I can define auxiliary function inside a method
+* Easy to understand by Java developers.
+    * You can write Java-style code, and then improve it every day (this is not true for e.g. Haskell)
+    * Immutability is encouraged, but not required
+    * Some developers could already try [functional programming with Guava](https://code.google.com/p/guava-libraries/wiki/FunctionalExplained)
+* Access to Java classes, like `File` or `Date`
+* Has advanced concepts, when you are ready
+    * Implicit conversions
+    * Passed-by-name parameters
+    * Actors
+    * Partially applied functions, Currying
+* [A Brief Intro to Scala](http://www.slideshare.net/tpunder/a-brief-intro-to-scala)
 
 
 Easy to start

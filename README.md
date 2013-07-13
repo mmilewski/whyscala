@@ -1,8 +1,7 @@
-> Any fool can write code that a computer can understand.  Good programmers write code that humans can understand.  
-> *Martin Fowler*
-
 So why?
 =======
+> Any fool can write code that a computer can understand.  Good programmers write code that humans can understand.  
+> *Martin Fowler*
 
 * Fast to first product and scalable afterwards
 * Static typing - is a blessing not a curse
@@ -50,8 +49,7 @@ What others say?
 
 * Confessions of a Ruby Developer Whose Heart Was Stolen by Scala http://parleys.com/play/51c178ece4b0d38b54f46217/
 * Intel hosts Dr. Martin Odersky presenting Scala 2.10 http://www.youtube.com/watch?v=hiurd7KaSEI
-* [Scala Videos](http://parleys.com/search/scala) and [Scala Days 2013](http://parleys.com/channel/51ae1022e4b01033a7e4b6ca/presentations)
-
+* [Scala Through the Eyes of Java](http://parleys.com/play/5148922b0364bc17fc56c890/)
 
 Easy to start
 =============
@@ -184,5 +182,12 @@ Where can I learn?
 * No matter how much you read, if you don't start writing programs, it is not gonna work.
 * Twitter's Scala School http://twitter.github.io/scala_school/
 * Twitter's Effective Scala http://twitter.github.io/effectivescala/
-* Martin Odersky's Scala With Style http://www.youtube.com/watch?v=iPitDNUNyR0&t=50s
 * [Books On Scala](http://www.scala-lang.org/node/959)
+
+
+Other resources
+===============
+![http://parleys.com/play/5148922b0364bc17fc56c890/chapter60/related](http://i.imgur.com/x9kbLe3.png)
+[Scala Through the Eyes of Java](http://parleys.com/play/5148922b0364bc17fc56c890/chapter60/related)
+* [Martin Odersky's Scala With Style](http://www.youtube.com/watch?v=iPitDNUNyR0&t=50s)
+* [Scala Days 2013](http://parleys.com/channel/51ae1022e4b01033a7e4b6ca/presentations)

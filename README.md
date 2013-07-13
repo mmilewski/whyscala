@@ -1,4 +1,3 @@
-
 > Any fool can write code that a computer can understand.  Good programmers write code that humans can understand.  
 > *Martin Fowler*
 
@@ -93,3 +92,11 @@ What other say?
 ================
 * Confessions of a Ruby Developer Whose Heart Was Stolen by Scala http://parleys.com/play/51c178ece4b0d38b54f46217/
 * Intel hosts Dr. Martin Odersky presenting Scala 2.10 http://www.youtube.com/watch?v=hiurd7KaSEI
+
+
+Where can I learn?
+==================
+* No matter how much you read, if you don't start writing programs, it is not gonna work.
+* Twitter's Scala School http://twitter.github.io/scala_school/
+* Twitter's Effective Scala http://twitter.github.io/effectivescala/
+* Martin Odersky's Scala With Style http://www.youtube.com/watch?v=iPitDNUNyR0&t=50s

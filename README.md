@@ -174,6 +174,7 @@ val today = new Date()                  // Brackets are optionall
 Test your ideas
 ===============
 * Online using Scala Kata http://www.scalakata.com/
+* Online using Online Compiler http://www.compileonline.com/compile_scala_online.php
 * Locally using Scala REPL http://bcomposes.wordpress.com/2011/08/22/first-steps-in-scala-for-first-time-programmers-part-1/
 
 

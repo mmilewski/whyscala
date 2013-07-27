@@ -39,6 +39,7 @@ So why?
 > Today’s computing environments are moving towards multicore hardware and cloud computing workloads. Typesafe is strategically positioned to provide innovate solutions with its modern Scala and Akka-based software stack and developer tools for the next wave of applications.
 > *Rod Johnson*
 
+* "I hate code and I want as little of it as possible in our product" [Stop Writing Classes](http://www.youtube.com/watch?feature=player_embedded&v=o9pEzgHorH0&t=1m)
 
 What others say?
 ================

@@ -51,6 +51,7 @@ What others say?
 * Confessions of a Ruby Developer Whose Heart Was Stolen by Scala http://parleys.com/play/51c178ece4b0d38b54f46217/
 * Intel hosts Dr. Martin Odersky presenting Scala 2.10 http://www.youtube.com/watch?v=hiurd7KaSEI
 * [Scala Through the Eyes of Java](http://parleys.com/play/5148922b0364bc17fc56c890/)
+* [The Why and How of Scala at Twitter](http://www.slideshare.net/al3x/the-how-and-why-of-scala-at-twitter)
 
 Easy to start
 =============

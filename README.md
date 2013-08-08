@@ -124,6 +124,21 @@ Concise and clean code...
     p.getName              // Marcin
     ```
 
+* Converting one collection to the other is easy. Example dedicated to those who say "Scala is so complex/weird".
+   ```java
+   // java
+   List<String> fruitsList = Arrays.asList("orange", "apple", "banana"); // pardon me, why `Arrays` when I want a list?
+   String[] fruitsArray = fruitsList.toArray(new String[0]);             // so you say "new String[0]" is easy?
+   List<String> backToList = fruitsArray.toList();                       // trick not required here, arrays are not generic.
+   // Iterator<String> fruitsArrayItor = ?? fruitsArray ??;   // how do I?
+   
+   // scala
+   val fruitsList: List[String] = List("orange", "apple", "banana")
+   val fruitsArray: Array[String] = fruitsList.toArray
+   val backToList: List[String] = fruitsArray.toList
+   val fruitsArray: Iterator[String] = fruitsArray.iterator      // also fruitsList.iterator
+   val fruitsStream: Stream[String] = fruitsArray.toStream       // also fruitsList.toStream
+   ```
 
 Getting things done
 -------------------

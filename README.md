@@ -17,7 +17,7 @@ So why?
     * You can define a function inside a function/method, if this is what you need.
 * Default parameters and named parameters
 * Hybrid of object oriented and functinal programming
-* Pattern matching
+    * Pattern matching and dynamic dispatch - [why both?](http://www.parleys.com/play/51c1994ae4b0d38b54f4621b/chapter55/about)
 * I can operate on `BigInteger` using + and * rather than add() or multiply(). [See here](http://daily-scala.blogspot.ca/2009/11/bigint-in-scala.html)
 * Easy to understand by Java developers:
     * You can write Java-style code, and then improve it every day (this is not true for e.g. Haskell)

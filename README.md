@@ -19,10 +19,7 @@ So why?
 * Hybrid of object oriented and functinal programming
     * Pattern matching and dynamic dispatch - [why both?](http://www.parleys.com/play/51c1994ae4b0d38b54f4621b/chapter55/about)
 * I can operate on `BigInteger` using + and * rather than add() or multiply(). [Here is an example](http://daily-scala.blogspot.ca/2009/11/bigint-in-scala.html)
-* Easy to understand by Java developers:
-    * You can write Java-style code, and then improve it every day (this is not true for e.g. Haskell)
-    * Immutability is encouraged, but not required
-    * Some developers could already try [functional programming with Guava](https://code.google.com/p/guava-libraries/wiki/FunctionalExplained)
+* [Easy to start with for Java developers][easy-to-start]
 * Java interoperability, so you can use Java classes, like `File` or `Date`
 * No more `NullPointerException`! Unless you invoke Java code :P
 * Advanced concepts available, when you are ready:
@@ -53,6 +50,10 @@ What others say?
 
 Easy to start
 =============
+[easy-to-start]: #easy-to-start
+* You can write Java-style code, and then improve it every day (this is not true for e.g. Haskell)
+* Immutability is encouraged, but not required
+* Some developers could already try [functional programming with Guava](https://code.google.com/p/guava-libraries/wiki/FunctionalExplained)
 * [A Brief Intro to Scala](http://www.slideshare.net/tpunder/a-brief-intro-to-scala)
 * Very similar to Java, you don't have to start with advanced stuff during the first day.
 * Tutorials geared for people coming from... http://docs.scala-lang.org/tutorials/

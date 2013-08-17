@@ -89,7 +89,10 @@ Concise and clean code...
 * Uses anonymous functions to get the job done
     ```scala
     case class Person(val name:String, val age:Int, val isMan: Boolean)
-    val people = List(new Person("Marcin", 20, true), new Person("Dorota", 10, false), new Person("Peter", 16, true))
+    val people = List(
+         Person("Marcin", 20, true),     // `new` is not required becaue Person is a `case class`, not just a `class` 
+         Person("Dorota", 10, false), 
+         Person("Peter", 16, true))
     
     // for each man with name "Marcin" or "Peter" print his name and age
     val goodNames = Set("Marcin", "Peter")
@@ -131,12 +134,12 @@ Concise and clean code...
    List<String> fruitsList = Arrays.asList("orange", "apple", "banana"); 
    // pardon me, why `Arrays` when I want a list? Ok, let it be, but how do I create a Set?
    Set<String> fruitSet1 = Arrays.asSet("orange", "apple", "banana");     // ERROR, no such method `asSet`
-   Set<String> fruitSet2 = new HashSet<String>(Arrays.asSet("orange", "apple", "banana"));  // ok, here we go!
+   Set<String> fruitSet2 = new HashSet<String>(Arrays.asList("orange", "apple", "banana"));  // ok, here we go!
    Set<String> fruitSet3 = Sets.newHashSet("orange", "apple", "banana");  // poor you, who cannot use Guava...
 
-   String[] fruitsArray = fruitsList.toArray(new String[0]);              // so you say "new String[0]" is easy?
-   List<String> backToList = fruitsArray.toList();                        // trick not required here, arrays are not generic.
-   // Iterator<String> fruitsArrayItor = ?? fruitsArray ??;   // how do I?
+   String[] fruitsArray = fruitsList.toArray(new String[0]);              // so you say "new String[0]" is easy/intuitive?
+   List<String> backToList = fruitsArray.toList();                        // trick not required here, arrays are not generic
+   // Iterator<String> fruitsArrayItor = ?? fruitsArray ??;      // how do I do that?
    
    // scala
    val fruitsList: List[String] = List("orange", "apple", "banana")

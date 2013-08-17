@@ -57,6 +57,7 @@ Easy to start
 =============
 * Very similar to Java, you don't have to start with advanced stuff during the first day.
 * Tutorials geared for people coming from... http://docs.scala-lang.org/tutorials/
+* [Java to Scala cheatsheet](http://techblog.realestate.com.au/java-to-scala-cheatsheet/) by Ken Scambler
 
 
 Better code

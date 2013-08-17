@@ -5,20 +5,20 @@ So why?
 
 * Fast to first product and scalable afterwards
 * Static typing - is a blessing not a curse
-* Concise code
+* Concise code (brevity is a virtue)
     * Inlined/Anonymous functions  `val man = people.find(_.isMan)     // same as people.find(person => person.isMan)`
     * Number of [useful methods](http://www.scala-lang.org/api/current/index.html#scala.collection.immutable.List) in collection
-    * I write types where I want and where I have to as opposed to everywhere, which produces long code
+    * I write types where I want and where I have to as opposed to everywhere (which produces unnecessary code)
 * Less errors
     * Concise code (see above)
     * Encouraged immutability
     * Code is checked by compiler
 * Functions and Tuples are first-class citizens
+    * You can define a function inside a function/method, if this is what you need.
+* Default parameters and named parameters
 * Hybrid of object oriented and functinal programming
 * Pattern matching
 * I can operate on `BigInteger` using + and * rather than add() or multiply(). [See here](http://daily-scala.blogspot.ca/2009/11/bigint-in-scala.html)
-* Default parameters and named parameters
-* I can define auxiliary function inside a method
 * Easy to understand by Java developers:
     * You can write Java-style code, and then improve it every day (this is not true for e.g. Haskell)
     * Immutability is encouraged, but not required
@@ -31,9 +31,6 @@ So why?
     * Actors, Futures
     * Partially applied functions, Currying
     * DSL
-* Intros
-   * [A Brief Intro to Scala](http://www.slideshare.net/tpunder/a-brief-intro-to-scala)
-   * [Working Hard to Keep It Simple](http://www.youtube.com/watch?v=3jg1AheF4n0)
 * Rod Johnson (creator of Spring framework) joined [Typesafe](http://typesafe.com/company)
 
 > Today’s computing environments are moving towards multicore hardware and cloud computing workloads. Typesafe is strategically positioned to provide innovate solutions with its modern Scala and Akka-based software stack and developer tools for the next wave of applications.
@@ -52,13 +49,14 @@ What others say?
 * Intel hosts Dr. Martin Odersky presenting Scala 2.10 http://www.youtube.com/watch?v=hiurd7KaSEI
 * [Scala Through the Eyes of Java](http://parleys.com/play/5148922b0364bc17fc56c890/)
 * [The Why and How of Scala at Twitter](http://www.slideshare.net/al3x/the-how-and-why-of-scala-at-twitter)
+* [Working Hard to Keep It Simple](http://www.youtube.com/watch?v=3jg1AheF4n0)
 
 Easy to start
 =============
+* [A Brief Intro to Scala](http://www.slideshare.net/tpunder/a-brief-intro-to-scala)
 * Very similar to Java, you don't have to start with advanced stuff during the first day.
 * Tutorials geared for people coming from... http://docs.scala-lang.org/tutorials/
 * [Java to Scala cheatsheet](http://techblog.realestate.com.au/java-to-scala-cheatsheet/) by Ken Scambler
-
 
 Better code
 ===========

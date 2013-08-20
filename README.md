@@ -134,7 +134,7 @@ Concise and clean code...
    // pardon me, why `Arrays` when I want a list? Ok, let it be, but how do I create a Set?
    Set<String> fruitSet1 = Arrays.asSet("orange", "apple", "banana");     // ERROR, no such method `asSet`
    Set<String> fruitSet2 = new HashSet<String>(Arrays.asList("orange", "apple", "banana"));  // ok, here we go!
-   Set<String> fruitSet3 = Sets.newHashSet("orange", "apple", "banana");  // poor you, who cannot use Guava...
+   Set<String> fruitSet3 = Sets.newHashSet("orange", "apple", "banana");  // courtesy of Guava... but still a lot of typing
 
    String[] fruitsArray = fruitsList.toArray(new String[0]);              // so you say "new String[0]" is easy/intuitive?
    List<String> backToList = fruitsArray.toList();                        // trick not required here, arrays are not generic

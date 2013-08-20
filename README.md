@@ -81,7 +81,7 @@ Concise and clean code...
     val men = people.filter(_.isMan)
     val adultMen = men.filter(_.age >= 18)
     
-    // have you ever tried partitioning the collection in Java? No? Have fun, while I have my job done:
+    // have you ever tried partitioning the collection in Java? No? Have fun! In Scala...
     val (underage, adult) = people.partition(_.age < 18)
     ```
 

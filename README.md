@@ -127,7 +127,7 @@ Concise and clean code...
     p.getName              // Marcin
     ```
 
-* Converting one collection to the other is easy. Example dedicated to those who say "Scala is so complex/weird".
+* Creating a collection & converting one collection to the other is easy - **it have to be**, you do this many times a day!
    ```java
    // java
    List<String> fruitsList = Arrays.asList("orange", "apple", "banana"); 

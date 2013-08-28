@@ -41,8 +41,8 @@ What others say?
 > I can honestly say if someone had shown me the Programming in Scala book by by Martin Odersky, Lex Spoon & Bill Venners back in 2003 I'd probably have never created Groovy.
 > [*James Strachan*](http://macstrac.blogspot.ca/2009/04/scala-as-long-term-replacement-for.html)
 
-
 * Confessions of a Ruby Developer Whose Heart Was Stolen by Scala http://parleys.com/play/51c178ece4b0d38b54f46217/
+* [What is Scala?](http://www.scala-lang.org/what-is-scala.html) by Martin Odersky
 * Intel hosts Dr. Martin Odersky presenting Scala 2.10 http://www.youtube.com/watch?v=hiurd7KaSEI
 * [Scala Through the Eyes of Java](http://parleys.com/play/5148922b0364bc17fc56c890/)
 * [The Why and How of Scala at Twitter](http://www.slideshare.net/al3x/the-how-and-why-of-scala-at-twitter)

@@ -1,6 +1,6 @@
 So why?
 =======
-> Any fool can write code that a computer can understand.  Good programmers write code that humans can understand.  
+> Any fool can write code that a computer can understand. Good programmers write code that humans can understand.  
 > *Martin Fowler*
 
 * Fast to first product and scalable afterwards
@@ -39,8 +39,8 @@ What others say?
 ================
 
 > If I were to pick a language to use today other than Java, it would be Scala.
-> *James Gosling*
-
+> [*James Gosling*](http://en.wikipedia.org/wiki/James_Gosling)
+ 
 > I can honestly say if someone had shown me the Programming in Scala book by by Martin Odersky, Lex Spoon & Bill Venners back in 2003 I'd probably have never created Groovy.
 > [*James Strachan*](http://macstrac.blogspot.ca/2009/04/scala-as-long-term-replacement-for.html)
 

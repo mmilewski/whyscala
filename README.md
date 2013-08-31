@@ -38,6 +38,9 @@ So why?
 What others say?
 ================
 
+> If I were to pick a language to use today other than Java, it would be Scala.
+> *James Gosling*
+
 > I can honestly say if someone had shown me the Programming in Scala book by by Martin Odersky, Lex Spoon & Bill Venners back in 2003 I'd probably have never created Groovy.
 > [*James Strachan*](http://macstrac.blogspot.ca/2009/04/scala-as-long-term-replacement-for.html)
 

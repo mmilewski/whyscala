@@ -219,7 +219,7 @@ Where can I learn?
 
 Other resources
 ===============
-![http://parleys.com/play/5148922b0364bc17fc56c890/chapter60/related](http://i.imgur.com/x9kbLe3.png)
+![http://parleys.com/play/5148922b0364bc17fc56c890/chapter60/related](http://s22.postimg.org/r6pkbkxkx/tools_and_scala_features.png)
 [Scala Through the Eyes of Java](http://parleys.com/play/5148922b0364bc17fc56c890/chapter60/related)
 * [Martin Odersky's Scala With Style](http://www.youtube.com/watch?v=iPitDNUNyR0&t=50s)
 * [Scala Days 2013](http://parleys.com/channel/51ae1022e4b01033a7e4b6ca/presentations)

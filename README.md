@@ -210,12 +210,11 @@ Test your ideas
 
 Where can I learn?
 ==================
-* No matter how much you read, if you don't start writing programs, it is not gonna work.
+* Scala Tutorials with online REPL http://scalatutorials.com/
 * Twitter's Scala School http://twitter.github.io/scala_school/
 * Twitter's Effective Scala http://twitter.github.io/effectivescala/
 * [Books On Scala](http://www.scala-lang.org/node/959)
-* [Scala Koans](http://www.scalakoans.org/)
-
+* Scala Koans http://www.scalakoans.org/
 
 Other resources
 ===============

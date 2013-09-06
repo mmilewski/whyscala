@@ -3,14 +3,14 @@ So why?
 > Any fool can write code that a computer can understand. Good programmers write code that humans can understand.  
 > *Martin Fowler*
 
-* Fast to first product and scalable afterwards
 * Static typing - is a blessing not a curse
-* Concise code (brevity is a virtue)
+* Immutable collections and API to operate on them.
+* Concise code, because brevity is a virtue
     * Inlined/Anonymous functions  `val man = people.find(_.isMan)     // same as people.find(person => person.isMan)`
     * Number of [useful methods](http://www.scala-lang.org/api/current/index.html#scala.collection.immutable.List) in collection
     * I write types where I want and where I have to as opposed to everywhere (which produces unnecessary code)
 * Less errors
-    * Concise code (see above)
+    * Concise code
     * Encouraged immutability
     * Code is checked by compiler
 * Functions and Tuples are first-class citizens
@@ -18,9 +18,10 @@ So why?
 * Default parameters and named parameters
 * Hybrid of object oriented and functinal programming
     * Pattern matching and dynamic dispatch - [why both?](http://www.parleys.com/play/51c1994ae4b0d38b54f4621b/chapter55/about)
-* I can operate on `BigInteger` using + and * rather than add() or multiply(). [Here is an example](http://daily-scala.blogspot.ca/2009/11/bigint-in-scala.html)
-* [Easy to start with for Java developers][easy-to-start]
+* I can operate on `BigInteger` using `+` and `*` rather than `add()` or `multiply()`. [Here is an example](http://daily-scala.blogspot.ca/2009/11/bigint-in-scala.html)
 * Java interoperability, so you can use Java classes, like `File` or `Date`
+* [Easy to start with for Java developers][easy-to-start]
+* Fast to first product and scalable afterwards
 * No more `NullPointerException`! Unless you invoke Java code :P
 * Advanced concepts available, when you are ready:
     * Implicit conversions
@@ -32,8 +33,6 @@ So why?
 
 > Today’s computing environments are moving towards multicore hardware and cloud computing workloads. Typesafe is strategically positioned to provide innovate solutions with its modern Scala and Akka-based software stack and developer tools for the next wave of applications.
 > *Rod Johnson*
-
-* "I hate code and I want as little of it as possible in our product" [Stop Writing Classes](http://www.youtube.com/watch?feature=player_embedded&v=o9pEzgHorH0&t=1m)
 
 What others say?
 ================

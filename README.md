@@ -206,7 +206,6 @@ Test your ideas
 * Online using Online Compiler http://www.compileonline.com/compile_scala_online.php
 * Locally using Scala REPL http://bcomposes.wordpress.com/2011/08/22/first-steps-in-scala-for-first-time-programmers-part-1/
 
-
 Where can I learn?
 ==================
 * Scala Tutorials with online REPL http://scalatutorials.com/
@@ -221,3 +220,4 @@ Other resources
 [Scala Through the Eyes of Java](http://parleys.com/play/5148922b0364bc17fc56c890/chapter60/related)
 * [Martin Odersky's Scala With Style](http://www.youtube.com/watch?v=iPitDNUNyR0&t=50s)
 * [Scala Days 2013](http://parleys.com/channel/51ae1022e4b01033a7e4b6ca/presentations)
+* [Scala & Java 8: Feature Comparison](http://www.infoq.com/articles/java-8-vs-scala)

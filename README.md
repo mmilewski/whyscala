@@ -209,6 +209,7 @@ Test your ideas
 Where can I learn?
 ==================
 * Scala Tutorials with online REPL http://scalatutorials.com/
+* Getting Started With Functional Programming and Scala https://blog.stackmob.com/2013/01/resources-for-getting-started-with-functional-programming-and-scala/
 * Twitter's Scala School http://twitter.github.io/scala_school/
 * Twitter's Effective Scala http://twitter.github.io/effectivescala/
 * [Books On Scala](http://www.scala-lang.org/node/959)

@@ -49,6 +49,7 @@ What others say?
 * [Scala Through the Eyes of Java](http://parleys.com/play/5148922b0364bc17fc56c890/)
 * [The Why and How of Scala at Twitter](http://www.slideshare.net/al3x/the-how-and-why-of-scala-at-twitter)
 * [Working Hard to Keep It Simple](http://www.youtube.com/watch?v=3jg1AheF4n0)
+* [Moving from Java to Scala - One year later... (early 2011)](http://java.dzone.com/articles/moving-java-scala-one-year)
 
 Easy to start
 =============

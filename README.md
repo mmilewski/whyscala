@@ -153,6 +153,22 @@ Concise and clean code...
    val fruitsStream: Stream[String] = fruitsArray.toStream       // also fruitsList.toStream
    ```
 
+* How is traversing instance of Iterator different than a List? In Java it is...
+   ```java
+   // How do you print names of first 5 items?
+
+   // java
+   Iterator<Item> itor = google.Iterators.limit(db.allItems(), 5);    // pain in the neck without Guava though
+   Item item;
+   while (itor.hasNext() && (item = itor.next())) {     // WAT?
+      System.out.println(item.name);
+   }
+
+   // scala
+   Iterator[Item] itor = db.allItems()
+   itor.take(5).map(_.name).foreach(println)       // use the same name of methods as for List or Vector
+   ```
+
 Getting things done
 -------------------
 

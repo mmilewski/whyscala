@@ -149,7 +149,7 @@ Concise and clean code...
    val fruitsArray: Array[String] = fruitsList.toArray
    val fruitsSet2: Set[String] = fruitsArray.toSet               // also fruitsList.toSet
    val backToList: List[String] = fruitsArray.toList
-   val fruitsArray: Iterator[String] = fruitsArray.iterator      // also fruitsList.iterator
+   val fruitsArray: Iterator[String] = fruitsArray.toIterator    // also fruitsList.iterator
    val fruitsStream: Stream[String] = fruitsArray.toStream       // also fruitsList.toStream
    ```
 

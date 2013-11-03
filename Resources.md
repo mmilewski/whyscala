@@ -14,6 +14,8 @@ The Neophyte's Guide to Scala
 Typeclasses
 -----------
 * JsonConverter, JsonWriter, Expression, ExpressionEvaluator. http://www.youtube.com/watch?v=sVMES4RZF-8 (Marakana)
+* SO: Benefits http://stackoverflow.com/questions/13963070/scala-typeclass-example-how-to-explain-the-benefits
+* Neophyte's Guide http://danielwestheide.com/blog/2013/02/06/the-neophytes-guide-to-scala-part-12-type-classes.html
 
 Akka
 =====

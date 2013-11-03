@@ -16,6 +16,9 @@ Typeclasses
 * JsonConverter, JsonWriter, Expression, ExpressionEvaluator. http://www.youtube.com/watch?v=sVMES4RZF-8 (Marakana)
 * SO: Benefits http://stackoverflow.com/questions/13963070/scala-typeclass-example-how-to-explain-the-benefits
 * Neophyte's Guide http://danielwestheide.com/blog/2013/02/06/the-neophytes-guide-to-scala-part-12-type-classes.html
+* Raster Image Processing http://www.youtube.com/watch?v=D3VBVGhZ1SE
+  * stephenjudkins / pureimage https://github.com/stephenjudkins/pureimage
+* Typeclass Pattern - An Alternative to Inheritance http://www.youtube.com/watch?v=yYo0gANYViE
 
 Akka
 =====

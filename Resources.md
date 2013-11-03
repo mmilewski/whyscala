@@ -23,6 +23,10 @@ Typeclasses
 Akka
 =====
 
+* Scaling out with Akka Actors http://www.infoq.com/presentations/akka-scala-actors-distributed-system (Joshua Suereth)
+ * Joshua Suereth designs a scalable distributed search service with Akka and Scala using actors, and covering practical aspects of how to scale out with Akka’s clustering API.
+* [Concurrency Anti-patterns in Scala](http://www.youtube.com/watch?v=dCEZDlH1ygo)
+
 Akka at Conspire
 ----------------
 * Akka at Conspire [Part 1]: How We Built Our Backend on Akka and Scala http://blog.goconspire.com/post/64130417462/akka-at-conspire-part-1-how-we-built-our-backend-on
@@ -31,5 +35,4 @@ Akka at Conspire
 * Akka at Conspire [Part 4]: Don’t Fall Into Our Anti-Pattern Traps http://blog.goconspire.com/post/64780988287/akka-at-conspire-part-4-dont-fall-into-our
 * Akka at Conspire [Part 5]: The Importance of Pulling http://blog.goconspire.com/post/64901258135/akka-at-conspire-part-5-the-importance-of-pulling
 
-* [Concurrency Anti-patterns in Scala](http://www.youtube.com/watch?v=dCEZDlH1ygo)
 

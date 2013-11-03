@@ -25,6 +25,7 @@ Akka
 
 * Scaling out with Akka Actors http://www.infoq.com/presentations/akka-scala-actors-distributed-system (Joshua Suereth)
  * Joshua Suereth designs a scalable distributed search service with Akka and Scala using actors, and covering practical aspects of how to scale out with Akka’s clustering API.
+ * https://github.com/jsuereth/intro-to-actors
 * [Concurrency Anti-patterns in Scala](http://www.youtube.com/watch?v=dCEZDlH1ygo)
 * Scala IO Excercises https://github.com/RayRoestenburg/scala-io-exercise-1
 

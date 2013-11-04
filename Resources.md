@@ -1,15 +1,14 @@
 Scala
 =====
 
-Student Questions about Scala
------------------------------
-* http://www.javacodegeeks.com/2012/02/student-questions-about-scala-part-1.html
-* http://www.javacodegeeks.com/2012/03/student-questions-about-scala-part-2.html
-
-The Neophyte's Guide to Scala
------------------------------
-* http://danielwestheide.com/scala/neophytes.html
-* http://danielwestheide.com/blog/archives/
+* Student Questions about Scala
+ * http://www.javacodegeeks.com/2012/02/student-questions-about-scala-part-1.html
+ * http://www.javacodegeeks.com/2012/03/student-questions-about-scala-part-2.html
+* The Neophyte's Guide to Scala
+ * http://danielwestheide.com/scala/neophytes.html
+ * http://danielwestheide.com/blog/archives/
+* Resources for Getting Started With Functional Programming and Scala 
+ * http://nerd.kelseyinnis.com/blog/2013/01/07/resources-for-getting-started-with-functional-programming-and-scala/
 
 Typeclasses
 -----------

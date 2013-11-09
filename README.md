@@ -51,6 +51,7 @@ What others say?
 * [The Why and How of Scala at Twitter](http://www.slideshare.net/al3x/the-how-and-why-of-scala-at-twitter)
 * [Working Hard to Keep It Simple](http://www.youtube.com/watch?v=3jg1AheF4n0)
 * [Moving from Java to Scala - One year later... (early 2011)](http://java.dzone.com/articles/moving-java-scala-one-year)
+* [What has Scala done for you or your organization](https://github.com/mmilewski/whyscala/blob/master/files/WhatHasScalaDoneForYouOrYourOrganization.pdf)
 
 Easy to start
 =============

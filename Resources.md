@@ -39,3 +39,7 @@ Akka at Conspire
 Functional Programming
 ======================
 * Functional Talks http://functionaltalks.org/
+
+Play Framework
+==============
+* The Play Framework at LinkedIn http://www.slideshare.net/brikis98/the-play-framework-at-linkedin

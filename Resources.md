@@ -19,6 +19,11 @@ Typeclasses
   * stephenjudkins / pureimage https://github.com/stephenjudkins/pureimage
 * Typeclass Pattern - An Alternative to Inheritance http://www.youtube.com/watch?v=yYo0gANYViE
 
+Big Data
+========
+* Big Data using Scala https://speakerdeck.com/samklr/big-data-using-scala
+ * Scalding, Spark
+
 Akka
 =====
 

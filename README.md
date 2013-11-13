@@ -232,7 +232,9 @@ Where can I learn?
 * Twitter's Scala School http://twitter.github.io/scala_school/
 * Twitter's Effective Scala http://twitter.github.io/effectivescala/
 * [Books On Scala](http://www.scala-lang.org/node/959)
-* Scala Koans http://www.scalakoans.org/
+* **Hands-on**
+   * Ninety-Nine Scala Problems http://aperiodic.net/phil/scala/s-99/
+   * Scala Koans http://www.scalakoans.org/
 
 Other resources
 ===============

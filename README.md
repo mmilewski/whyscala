@@ -13,16 +13,16 @@ So why?
 * Less errors
     * Concise code
     * Encouraged immutability
-    * Code is checked by compiler
+    * Code is checked by compiler (static typing)
 * Functions and Tuples are first-class citizens
+    * Return many values from a function/method!
     * You can define a function inside a function/method, if this is what you need.
 * Default parameters and named parameters
-* Hybrid of object oriented and functinal programming
+* Hybrid of object oriented and functional programming
     * Pattern matching and dynamic dispatch - [why both?](http://www.parleys.com/play/51c1994ae4b0d38b54f4621b/chapter55/about)
 * I can operate on `BigInteger` using `+` and `*` rather than `add()` or `multiply()`. [Here is an example](http://daily-scala.blogspot.ca/2009/11/bigint-in-scala.html)
 * Java interoperability, so you can use Java classes, like `File` or `Date`
 * [Easy to start with for Java developers][easy-to-start]
-* Fast to first product and scalable afterwards
 * No more `NullPointerException`! Unless you invoke Java code :P
 * Advanced concepts available, when you are ready:
     * Implicit conversions
@@ -67,10 +67,9 @@ Easy to start
 Better code
 ===========
 
-Concise and clean code... 
--------------------------
+Concise code
+------------
 
-* Keeps you away from dumb errors (off-by-one?)
 * Contains only the essential parts. If you need to filter a collection, you should be asked only for a predicate.
     ```java
     // java
@@ -86,7 +85,7 @@ Concise and clean code...
     val men = people.filter(_.isMan)
     val adultMen = men.filter(_.age >= 18)
     
-    // have you ever tried partitioning the collection in Java? No? Have fun! In Scala...
+    // have you ever tried partitioning the collection in Java? In Scala...
     val (underage, adult) = people.partition(_.age < 18)
     ```
 
@@ -101,18 +100,18 @@ Concise and clean code...
     // for each man with name "Marcin" or "Peter" print his name and age
     val goodNames = Set("Marcin", "Peter")
     people.filter(person => person.isMan && goodNames.contains(person.name)).foreach{ person =>
-        println( "%s is %d years old.".format(person.name, person.age) ) 
+        println("${person.name} is ${person.age} years old.") 
     }
     ```
-    So you say it wouldn't take a lot more code in Java, eh? What if I want to do something else with guys I found? How would your Java code adapt to new requirements? In Scala, I just extract variable `folks`
+    So you say it wouldn't take a lot more code in Java, eh? What if I want to do further processing on this people? In Scala, I just extract variable `folks`
     ```scala
     // for each man with name "Marcin" or "Peter" print his name and age
     val goodNames = Set("Marcin", "Peter")
     val folks = people.filter(person => person.isMan && goodNames.contains(person.name))
-    folks.foreach{ person =>
-        println( "%s is %d years old.".format(person.name, person.age) ) 
+    folks.foreach { person =>
+        println("${person.name} is ${person.age} years old.") 
     }
-    goForABearWith(folks)    
+    folks.filter(_.age > 18).foreach(giveBeer(_))
     ```
     
 * Uses compiler (not developer) to generate boilerplate
@@ -171,6 +170,30 @@ Concise and clean code...
    itor.take(5).map(_.name).foreach(println)       // use the same name of methods as for List or Vector
    ```
 
+Fewer bugs
+----------
+* Wrong placeholders or mismatching number of placeholders
+   ```java
+   String serviceName = "translator";
+   int failures = 4;
+
+   // When formatting String you should use %s, %d and so on
+   logger.info(String.format("%s failed %d times.", serviceName, failures));
+   
+   // But you can also use slf4j's formatter... but the usage is different
+   logger.info("{} failed {} times.", serviceName, failures);
+   
+   // 1. If you mix these two usages, your messages becomes useless.
+   // 2. If you provide wrong number of arguments, you are in trouble.
+   ```
+   ```scala
+   // In Scala mechanism for String formatting averts both issues
+   val serviceName: String = "translator"
+   val failures: Int = 4
+   logger.info(s"${serviceName} failed ${failures} times")
+
+   ```
+
 Getting things done
 -------------------
 
@@ -216,7 +239,7 @@ Access to Java libraries is easy
 
 ```scala
 import java.util.Date
-val today = new Date()                  // Brackets are optionall
+val today = new Date()                  // Brackets are optional
 ```
 
 Test your ideas

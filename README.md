@@ -8,7 +8,7 @@ So why?
    `val smallPrimes: Set[Int] = Set(2, 3) + 5 + 7  // create new set with added 5 and 7. And in Java?`
 * Concise code, because brevity is a virtue
     * Inlined/Anonymous functions  `val man = people.find(_.isMan)     // same as people.find(person => person.isMan)`
-    * Number of [useful methods](http://www.scala-lang.org/api/current/index.html#scala.collection.immutable.List) in collection
+    * Number of [useful methods](http://www.scala-lang.org/api/current/index.html#scala.collection.immutable.List) in collection to [solve the problem](http://www.scala-lang.org/docu/files/collections-api/collections_3.html)
     * I write types where I want and where I have to as opposed to everywhere (which produces unnecessary code)
 * Less errors
     * Concise code

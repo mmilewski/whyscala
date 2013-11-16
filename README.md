@@ -254,6 +254,7 @@ Where can I learn?
 * Getting Started With Functional Programming and Scala https://blog.stackmob.com/2013/01/resources-for-getting-started-with-functional-programming-and-scala/
 * Twitter's Scala School http://twitter.github.io/scala_school/
 * Twitter's Effective Scala http://twitter.github.io/effectivescala/
+* Guides and Overviews http://docs.scala-lang.org/overviews/
 * [Books On Scala](http://www.scala-lang.org/node/959)
 * **Hands-on**
    * Ninety-Nine Scala Problems http://aperiodic.net/phil/scala/s-99/

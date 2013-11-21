@@ -56,7 +56,8 @@ What others say?
 Easy to start
 =============
 [easy-to-start]: #easy-to-start
-* You can write Java-style code, and then improve it every day (this is not true for e.g. Haskell)
+* You can write Java-style code
+* And improve it every day. Read code, write code, ask questions, get excited!
 * Immutability is encouraged, but not required
 * Some developers could already try [functional programming with Guava](https://code.google.com/p/guava-libraries/wiki/FunctionalExplained)
 * [A Brief Intro to Scala](http://www.slideshare.net/tpunder/a-brief-intro-to-scala)

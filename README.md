@@ -1,7 +1,5 @@
 So why?
 =======
-> Any fool can write code that a computer can understand. Good programmers write code that humans can understand.  
-> *Martin Fowler*
 
 * Static typing - is a blessing not a curse
 * Immutable collections **and API to operate on them.**
@@ -18,8 +16,12 @@ So why?
     * Return many values from a function/method!
     * You can define a function inside a function/method, if this is what you need.
 * Default parameters and named parameters
-* Hybrid of object oriented and functional programming
+* Hybrid of Object Oriented (OOP) and Functional Programming (FP)
+    * FP idioms fit data processing better than objects 
+      * Spark http://spark.incubator.apache.org/examples.html
+      * Scalding https://github.com/twitter/scalding
     * Pattern matching and dynamic dispatch - [why both?](http://www.parleys.com/play/51c1994ae4b0d38b54f4621b/chapter55/about)
+    * Polyglot and Poly-paradigm Programming http://polyglotprogramming.com/talks
 * I can operate on `BigInteger` using `+` and `*` rather than `add()` or `multiply()`. [Here is an example](http://daily-scala.blogspot.ca/2009/11/bigint-in-scala.html)
 * Java interoperability, so you can use Java classes, like `File` or `Date`
 * [Easy to start with for Java developers][easy-to-start]

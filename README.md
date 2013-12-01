@@ -15,7 +15,6 @@ So why?
 * Functions and Tuples are first-class citizens
     * Return many values from a function/method!
     * You can define a function inside a function/method, if this is what you need.
-* Default parameters and named parameters
 * Hybrid of Object Oriented (OOP) and Functional Programming (FP)
     * FP idioms fit data processing better than objects 
       * Spark http://spark.incubator.apache.org/examples.html
@@ -26,6 +25,7 @@ So why?
 * Java interoperability, so you can use Java classes, like `File` or `Date`
 * [Easy to start with for Java developers][easy-to-start]
 * No more `NullPointerException`! Unless you invoke Java code :P
+* Default parameters and named parameters
 * Advanced concepts available, when you are ready:
     * Implicit conversions
     * Passed-by-name parameters

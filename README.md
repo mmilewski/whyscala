@@ -1,7 +1,7 @@
 So why?
 =======
 
-* Static typing - is a blessing not a curse
+* Nice combination of Python/Ruby and Java - concise syntax, static typing and access to Java libraries you already have
 * Immutable objects, collections **and API to operate on them.**
    `val smallPrimes: Set[Int] = Set(2, 3) + 5 + 7  // create new set with added 5 and 7. And in Java?`
 * Concise code, because brevity is a virtue

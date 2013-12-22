@@ -43,6 +43,10 @@ Akka at Conspire
 * Akka at Conspire [Part 4]: Don’t Fall Into Our Anti-Pattern Traps http://blog.goconspire.com/post/64780988287/akka-at-conspire-part-4-dont-fall-into-our
 * Akka at Conspire [Part 5]: The Importance of Pulling http://blog.goconspire.com/post/64901258135/akka-at-conspire-part-5-the-importance-of-pulling
 
+JVM
+===
+* Everything I Ever Learned about JVM Performance Tuning @twitter http://www.infoq.com/presentations/JVM-Performance-Tuning-twitter
+
 Functional Programming
 ======================
 * Functional Talks http://functionaltalks.org/

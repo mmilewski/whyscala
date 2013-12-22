@@ -45,7 +45,11 @@ Akka at Conspire
 
 JVM
 ===
-* Everything I Ever Learned about JVM Performance Tuning @twitter http://www.infoq.com/presentations/JVM-Performance-Tuning-twitter
+* Garbage Collector
+ * Everything I Ever Learned about JVM Performance Tuning @twitter http://www.infoq.com/presentations/JVM-Performance-Tuning-twitter
+ * http://www.cubrid.org/blog/dev-platform/understanding-java-garbage-collection/
+ * GC Tuning http://www.oracle.com/technetwork/java/javase/gc-tuning-6-140523.html
+ * http://www.cubrid.org/blog/tags/Garbage%20Collection/
 
 Functional Programming
 ======================

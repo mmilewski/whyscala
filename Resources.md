@@ -9,6 +9,8 @@ Scala
  * http://danielwestheide.com/blog/archives/
 * Resources for Getting Started With Functional Programming and Scala 
  * http://nerd.kelseyinnis.com/blog/2013/01/07/resources-for-getting-started-with-functional-programming-and-scala/
+* Cake Pattern
+ * Component configuration http://fr.slideshare.net/DerekWyatt1/baking-delicious-modularity-in-scala Derek Wyatt
 
 Typeclasses
 -----------

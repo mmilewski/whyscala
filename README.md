@@ -54,6 +54,7 @@ What others say?
 * [Working Hard to Keep It Simple](http://www.youtube.com/watch?v=3jg1AheF4n0)
 * [Moving from Java to Scala - One year later... (early 2011)](http://java.dzone.com/articles/moving-java-scala-one-year)
 * [What has Scala done for you or your organization](https://github.com/mmilewski/whyscala/blob/master/files/WhatHasScalaDoneForYouOrYourOrganization.pdf)
+* [Scala is a great mix](http://bharathwrites.in/posts/why-learn-scala/)
 
 Easy to start
 =============

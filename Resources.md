@@ -10,7 +10,7 @@ Scala
 * Resources for Getting Started With Functional Programming and Scala 
  * http://nerd.kelseyinnis.com/blog/2013/01/07/resources-for-getting-started-with-functional-programming-and-scala/
 * Cake Pattern
- * Component configuration http://fr.slideshare.net/DerekWyatt1/baking-delicious-modularity-in-scala Derek Wyatt
+ * Component configuration http://fr.slideshare.net/DerekWyatt1/baking-delicious-modularity-in-scala (Derek Wyatt)
 
 Typeclasses
 -----------
@@ -26,9 +26,15 @@ Big Data
 * Big Data using Scala https://speakerdeck.com/samklr/big-data-using-scala
  * Scalding, Spark
 
-Akka
-=====
+Distributed Systems, Akka
+=========================
 
+Congestion avoidance, backpressure
+----------------------------------
+* Congestion Avoidance and Control http://ee.lbl.gov/papers/congavoid.pdf (Van Jacobson)
+ 
+Akka
+-----
 * Scaling out with Akka Actors http://www.infoq.com/presentations/akka-scala-actors-distributed-system (Joshua Suereth)
  * Joshua Suereth designs a scalable distributed search service with Akka and Scala using actors, and covering practical aspects of how to scale out with Akka’s clustering API.
  * https://github.com/jsuereth/intro-to-actors

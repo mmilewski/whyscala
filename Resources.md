@@ -21,13 +21,10 @@ Typeclasses
   * stephenjudkins / pureimage https://github.com/stephenjudkins/pureimage
 * Typeclass Pattern - An Alternative to Inheritance http://www.youtube.com/watch?v=yYo0gANYViE
 
-Big Data
-========
-* Big Data using Scala https://speakerdeck.com/samklr/big-data-using-scala
- * Scalding, Spark
-
 Distributed Systems, Akka
 =========================
+
+* Designing a Concurrent Application http://learnyousomeerlang.com/content (Learn you some Erlang)
 
 Congestion avoidance, backpressure
 ----------------------------------
@@ -56,6 +53,11 @@ JVM
  * http://www.cubrid.org/blog/dev-platform/understanding-java-garbage-collection/
  * GC Tuning http://www.oracle.com/technetwork/java/javase/gc-tuning-6-140523.html
  * http://www.cubrid.org/blog/tags/Garbage%20Collection/
+
+Big Data
+========
+* Big Data using Scala https://speakerdeck.com/samklr/big-data-using-scala
+ * Scalding, Spark
 
 Functional Programming
 ======================

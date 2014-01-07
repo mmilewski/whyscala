@@ -37,6 +37,7 @@ Akka
  * https://github.com/jsuereth/intro-to-actors
 * [Concurrency Anti-patterns in Scala](http://www.youtube.com/watch?v=dCEZDlH1ygo)
 * Scala IO Excercises https://github.com/RayRoestenburg/scala-io-exercise-1
+* Cheat Sheets for Reactive Programming https://github.com/sjuvekar/reactive-programming-scala/blob/master/ReactiveCheatSheet.md
 
 Akka at Conspire
 ----------------

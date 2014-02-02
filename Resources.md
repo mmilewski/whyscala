@@ -54,6 +54,8 @@ JVM
  * http://www.cubrid.org/blog/dev-platform/understanding-java-garbage-collection/
  * GC Tuning http://www.oracle.com/technetwork/java/javase/gc-tuning-6-140523.html
  * http://www.cubrid.org/blog/tags/Garbage%20Collection/
+* ??
+ * Choosing Executor Service http://blog.jessitron.com/2014/01/choosing-executorservice.html
 
 Big Data
 ========

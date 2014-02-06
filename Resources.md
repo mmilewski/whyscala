@@ -11,6 +11,9 @@ Scala
  * http://nerd.kelseyinnis.com/blog/2013/01/07/resources-for-getting-started-with-functional-programming-and-scala/
 * Cake Pattern
  * Component configuration http://fr.slideshare.net/DerekWyatt1/baking-delicious-modularity-in-scala (Derek Wyatt)
+* Compiler
+ * Useful Scalac Flags https://gist.github.com/tpolecat/8812750
+ * wartremover https://github.com/puffnfresh/wartremover
 
 Typeclasses
 -----------

@@ -73,6 +73,7 @@ Play Framework
 ==============
 * The Play Framework at LinkedIn http://www.slideshare.net/brikis98/the-play-framework-at-linkedin
 
-Intellij IDEA
+IntelliJ IDEA
 =============
 * Working With IntelliJ IDEA (+VisualVM) http://www.scalacourses.com/student/showLecture/80
+* Tips & Tricks (30 Days...) http://blog.jetbrains.com/idea/category/tips-tricks/

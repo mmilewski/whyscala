@@ -72,3 +72,7 @@ Functional Programming
 Play Framework
 ==============
 * The Play Framework at LinkedIn http://www.slideshare.net/brikis98/the-play-framework-at-linkedin
+
+Intellij IDEA
+=============
+* Working With IntelliJ IDEA (+VisualVM) http://www.scalacourses.com/student/showLecture/80

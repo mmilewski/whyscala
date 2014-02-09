@@ -28,6 +28,10 @@ Distributed Systems, Akka
 =========================
 
 * Designing a Concurrent Application http://learnyousomeerlang.com/content (Learn you some Erlang)
+* [Distributed Computing: Principles, Algorithms, and Systems](http://tnij.org/distributedcomputing) http://www.cs.uic.edu/~ajayk/DCS-Book
+* Distributed systems meta list https://gist.github.com/macintux/6227368
+* Distributed systems for fun and profit http://book.mixu.net/distsys/
+* [Lesson learned] The network is reliable http://aphyr.com/posts/288-the-network-is-reliable
 
 Congestion avoidance, backpressure
 ----------------------------------

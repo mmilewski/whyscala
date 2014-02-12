@@ -19,3 +19,10 @@ Coursera
 * Scala, Play!, Akka
 * Feb 2014
 * Moved from PHP. Considered also Python/Django but it didn't provide good concurrency and speed (dynamically typed language)
+
+LinkedIn
+========
+* The Play Framework at LinkedIn http://www.slideshare.net/brikis98/the-play-framework-at-linkedin 
+
+Twitter
+=======

@@ -12,3 +12,10 @@ Walmart
 * Nov 2013
 * Akka, Scala, Play Framework, Typesafe platform
 * http://www.nurun.com/en/news/nurun-launches-redesigned-transactional-platform-with-walmart-canada/
+
+Coursera
+========
+* http://downloads.typesafe.com/website/casestudies/Coursera-Case-Study.pdf
+* Scala, Play!, Akka
+* Feb 2014
+* Moved from PHP. Considered also Python/Django but it didn't provide good concurrency and speed (dynamically typed language)

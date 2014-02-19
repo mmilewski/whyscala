@@ -19,6 +19,7 @@ Coursera
 * Scala, Play!, Akka
 * Feb 2014
 * Moved from PHP. Considered also Python/Django but it didn't provide good concurrency and speed (dynamically typed language)
+* Why we love Scala at Coursera http://tech.coursera.org/blog/2014/02/18/why-we-love-scala-at-coursera/
 
 LinkedIn
 ========

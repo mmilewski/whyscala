@@ -64,6 +64,14 @@ JVM
  * http://www.cubrid.org/blog/tags/Garbage%20Collection/
 * ??
  * Choosing Executor Service http://blog.jessitron.com/2014/01/choosing-executorservice.html
+* Enabling Java in Latency Sensitive Environments http://www.infoq.com/presentations/java-tuning-latency
+ * Zing http://www.azulsystems.com/products/zing/whatisit
+ * jHiccup https://github.com/giltene/jHiccup
+ * TTSP - Time To Safe Point
+ * Extreme outlier cost: Biased Locking, Counted loops optimization
+ * Lock deflection, Weak references, Soft references, finalizers
+ * THP - Transparent Huge Pages
+
 
 Big Data
 ========

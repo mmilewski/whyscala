@@ -71,6 +71,7 @@ JVM
  * Extreme outlier cost: Biased Locking, Counted loops optimization
  * Lock deflection, Weak references, Soft references, finalizers
  * THP - Transparent Huge Pages
+ * Gil Tene @ InfoQ http://www.infoq.com/author/Gil-Tene
 
 
 Big Data

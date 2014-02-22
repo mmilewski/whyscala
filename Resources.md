@@ -72,6 +72,7 @@ JVM
  * Lock deflection, Weak references, Soft references, finalizers
  * THP - Transparent Huge Pages
  * Gil Tene @ InfoQ http://www.infoq.com/author/Gil-Tene
+ * Choosing a Garbage Collector http://www.azulsystems.com/sites/default/files/images/Understanding_Java_Garbage_Collection_v3.pdf
 
 
 Big Data

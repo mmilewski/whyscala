@@ -88,8 +88,15 @@ Play Framework
 ==============
 * Play Framework at LinkedIn http://www.slideshare.net/brikis98/the-play-framework-at-linkedin
 * Play Framework: async I/O http://www.slideshare.net/brikis98/play-framework-async-io-with-java-and-scala
-
+* 
 IntelliJ IDEA
 =============
 * Working With IntelliJ IDEA (+VisualVM) http://www.scalacourses.com/student/showLecture/80
 * Tips & Tricks (30 Days...) http://blog.jetbrains.com/idea/category/tips-tricks/
+
+Scala.js
+========
+* http://www.scala-js.org/ and https://github.com/scala-js/scala-js
+* http://www.scala-js-fiddle.com/
+* Live coding http://vimeo.com/87845442 by Li Haoyi 
+

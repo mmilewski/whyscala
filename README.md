@@ -1,4 +1,4 @@
-> "The only way to go fast is to go well" - Uncle Bob
+> "The only way to go fast is to go well" - Uncle Bob in [Speed Kills](http://programmer.97things.oreilly.com/wiki/index.php/Speed_Kills)
 
 So why?
 =======

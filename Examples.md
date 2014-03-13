@@ -190,7 +190,7 @@ Formatting string
    List("A", "B", "C", "D").mkString("-->")  // "A-->B-->C-->D"
    
    // Glue using separator and boundaries
-   List("A", "B", "C", "D").mkString("{", " --> ", " } ")  // "{ A --> B --> C --> D }"
+   List("A", "B", "C", "D").mkString("{ ", " --> ", " }")  // "{ A --> B --> C --> D }"
 ```
 ```java
    String serviceName = "translator";

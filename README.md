@@ -71,28 +71,8 @@ Easy to start
 * [Java to Scala cheatsheet](http://techblog.realestate.com.au/java-to-scala-cheatsheet/) by Ken Scambler
 * [Cheatsheet. One huge Scala reference card](http://mbonaci.github.io/scala/)
 
-Better code - [Examples](https://github.com/mmilewski/whyscala/blob/master/Examples.md)
-===========
-
-Concise code
-------------
-
-* Uses compiler (not developer) to generate boilerplate
-    ```scala
-    class Person(val name: String)
-  
-    val p = new Person("Marcin")
-    p.name              // Marcin
-    p.name = "John"     // name is read-only. If you need write-access, change val to var in class definition
-    ```
-    Let compiler create getters/setters for you!
-    ```scala
-    class Person(@BeanProperty val name: String)
-  
-    val p = new Person("Marcin")
-    p.name                 // Marcin
-    p.getName              // Marcin
-    ```
+Readable and Concise code - [Examples](https://github.com/mmilewski/whyscala/blob/master/Examples.md)
+=========================
 
 Access to Java libraries is easy
 ================================

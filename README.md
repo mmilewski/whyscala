@@ -94,45 +94,6 @@ Concise code
     p.getName              // Marcin
     ```
 
-* Creating a collection & converting one collection to the other is easy - **it have to be**, you do this many times a day!
-   ```java
-   // java
-   List<String> fruitsList = Arrays.asList("orange", "apple", "banana"); 
-   // pardon me, why `Arrays` when I want a list? Ok, let it be, but how do I create a Set?
-   Set<String> fruitSet1 = Arrays.asSet("orange", "apple", "banana");     // ERROR, no such method `asSet`
-   Set<String> fruitSet2 = new HashSet<String>(Arrays.asList("orange", "apple", "banana"));  // ok, here we go!
-   Set<String> fruitSet3 = Sets.newHashSet("orange", "apple", "banana");  // courtesy of Guava... but still a lot of typing
-
-   String[] fruitsArray = fruitsList.toArray(new String[0]);              // so you say "new String[0]" is easy/intuitive?
-   List<String> backToList = fruitsArray.toList();                        // trick not required here, arrays are not generic
-   // Iterator<String> fruitsArrayItor = ?? fruitsArray ??;      // how do I do that?
-   
-   // scala
-   val fruitsList: List[String] = List("orange", "apple", "banana")
-   val fruitsSet: Set[String] = Set("orange", "apple", "banana")
-   val fruitsArray: Array[String] = fruitsList.toArray
-   val fruitsSet2: Set[String] = fruitsArray.toSet               // also fruitsList.toSet
-   val backToList: List[String] = fruitsArray.toList
-   val fruitsArray: Iterator[String] = fruitsArray.toIterator    // also fruitsList.iterator
-   val fruitsStream: Stream[String] = fruitsArray.toStream       // also fruitsList.toStream
-   ```
-
-* How is traversing instance of Iterator different than a List? In Java it is...
-   ```java
-   // How do you print names of first 5 items?
-
-   // java
-   Iterator<Item> itor = google.Iterators.limit(db.allItems(), 5);    // pain in the neck without Guava though
-   Item item;
-   while (itor.hasNext() && (item = itor.next())) {     // WAT?
-      System.out.println(item.name);
-   }
-
-   // scala
-   Iterator[Item] itor = db.allItems()
-   itor.take(5).map(_.name).foreach(println)       // use the same name of methods as for List or Vector
-   ```
-
 Fewer bugs
 ----------
 * Wrong placeholders or mismatching number of placeholders

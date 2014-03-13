@@ -26,7 +26,7 @@ PoKeMOniZe string
         return sb.toString();
     }
 
-    Collection<String> pokemonize(Collection<String> strings) {
+     List<String> pokemonize(Collection<String> strings) {
         List<String> result = new ArrayList<String>();
         for (String s : strings) {
             result.add(pokemonize(result));

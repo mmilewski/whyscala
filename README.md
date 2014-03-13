@@ -39,6 +39,9 @@ So why?
 > Today’s computing environments are moving towards multicore hardware and cloud computing workloads. Typesafe is strategically positioned to provide innovate solutions with its modern Scala and Akka-based software stack and developer tools for the next wave of applications.
 > *Rod Johnson*
 
+Readable and Concise code - [Examples](https://github.com/mmilewski/whyscala/blob/master/Examples.md)
+=========================
+
 What others say?
 ================
 
@@ -70,9 +73,6 @@ Easy to start
 * Tutorials geared for people coming from... http://docs.scala-lang.org/tutorials/
 * [Java to Scala cheatsheet](http://techblog.realestate.com.au/java-to-scala-cheatsheet/) by Ken Scambler
 * [Cheatsheet. One huge Scala reference card](http://mbonaci.github.io/scala/)
-
-Readable and Concise code - [Examples](https://github.com/mmilewski/whyscala/blob/master/Examples.md)
-=========================
 
 Access to Java libraries is easy
 ================================

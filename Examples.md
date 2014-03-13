@@ -175,13 +175,22 @@ Converting collections - has to be simple
    // Iterator<String> fruitsArrayItor = ?? fruitsArray ??;         // how do I create iterator from array?
 ```
 
-Protection against wrong placeholders or mismatching number of placeholders
----------------------------------------------------------------------------
+Formatting string
+-----------------
 ```scala
    // In Scala mechanism for String formatting averts both issues
    val serviceName: String = "translator"
    val failures: Int = 4
    logger.info(s"${serviceName} failed ${failures} times")
+   
+   // To glue few values together
+   List("Name", " ", "Lastname").mkString  // "Name Lastname"
+   
+   // Glue using separator
+   List("A", "B", "C", "D").mkString("-->")  // "A-->B-->C-->D"
+   
+   // Glue using separator and boundaries
+   List("A", "B", "C", "D").mkString("{", " --> ", " } ")  // "{ A --> B --> C --> D }"
 ```
 ```java
    String serviceName = "translator";

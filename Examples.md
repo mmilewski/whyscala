@@ -38,6 +38,12 @@ Quick stub method for different purposes (e.g. simplest alignment after protocol
 
 Simple filtering
 ----------------
+```scala
+    // scala
+    val men = people.filter(_.isMan)
+    val adultMen = men.filter(_.age >= 18)
+    
+```
 ```java
     // java
     List<Person> men = Lists.newArrayList()   // courtesy of Guava library
@@ -50,12 +56,7 @@ Simple filtering
     // I say tightly, because in other situation you may want only one of them, so I guess it is better to keep
     // them separate.
 ```
-```scala
-    // scala
-    val men = people.filter(_.isMan)
-    val adultMen = men.filter(_.age >= 18)
-    
-```
+
 Another example + string interpolation
 ```scala
     case class Person(val name:String, val age:Int, val isMan: Boolean)

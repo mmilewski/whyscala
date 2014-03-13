@@ -1,4 +1,4 @@
-This page collects specifig examples against:
+This page collects specific examples to ilustrate that none of these is valid:
 * "Scala code is unreadable"
 * "We don't have time to learn new language"
 

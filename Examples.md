@@ -96,3 +96,36 @@ Partitioning, Grouping
    Give it a try!
 ```
 
+Power of filtering + sorting + partitioning
+--------------------------------------------
+Divide a group of students from Canada by top grade and have them sorted by name. [src](http://parleys.com/play/5148922b0364bc17fc56c890/chapter35/about)
+
+```java
+    // java
+    // ... this is a place for your code ...
+```
+    
+```scala
+    // scala
+    val (topGrades, otherGrades) = studends.filter(_.country == "CA")
+                                           .sortBy(_.name)
+                                           .partition(_.grade >= 9)
+```
+
+Check if a string contains any uppercase character
+---------------------------------------------------
+```java
+    // java
+    boolean nameHasUpperCase = false;
+    for (int i = 0; i < name.length(); ++i) { 
+        if (Character.isUpperCase(name.charAt(i))) { 
+            nameHasUpperCase = true; 
+            break; 
+        }    
+    }
+```
+
+```scala
+    // scala
+    val nameHasUpperCase = name.exists(_.isUpperCase) 
+```

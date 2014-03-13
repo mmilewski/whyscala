@@ -17,11 +17,11 @@ PoKeMOniZe string
         StringBuilder sb = new StringBuilder();
         Random rnd = new Random();
         for (int i = 0; i < str.length(); i++) {
-            char c = Character.toLowerCase(str.charAt(i));
-            if (rnd.nextBoolean()) {
-                c = Character.toUpperCase(str.charAt(i));
-            }
-            sb.append(c);
+            sb.append(
+                rnd.nextBoolean()
+                    ? Character.toUpperCase(str.charAt(i))
+                    : Character.toLowerCase(str.charAt(i))
+            );
         }
         return sb.toString();
     }

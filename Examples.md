@@ -90,7 +90,7 @@ Partitioning, Grouping
     val (underage, adult) = people.partition(_.age < 18)
     
     // when you need grouping just...
-    val grouped: [Int, List[People]] = people.groupBy(_.age)
+    val grouped: Map[Int, List[People]] = people.groupBy(_.age)
 ```
 ```java
    // java

@@ -130,3 +130,46 @@ Check if a string contains any uppercase character
     }
 ```
 
+Traversing iterator - print names of first 5 items
+------------------------------------------
+How is traversing instance of Iterator different than traversing a List? In Java it is...
+```scala
+   // scala
+   Iterator[Item] itor = db.allItems()
+   itor.take(5).map(_.name).foreach(println)       // use the same name of methods as for List or Vector
+```
+```java
+   // java
+   Iterator<Item> itor = google.Iterators.limit(db.allItems(), 5);    // pain in the neck without Guava though
+   Item item;
+   while (itor.hasNext() && (item = itor.next())) {     // WAT?
+      System.out.println(item.name);
+   }
+
+```
+
+Converting collections - has to be simple
+-----------------------------------------
+```scala
+   // scala
+   val fruitsList: List[String] = List("orange", "apple", "banana")
+   val fruitsSet: Set[String] = Set("orange", "apple", "banana")
+   val fruitsArray: Array[String] = fruitsList.toArray
+   val fruitsSet2: Set[String] = fruitsArray.toSet               // also fruitsList.toSet
+   val backToList: List[String] = fruitsArray.toList
+   val fruitsArray: Iterator[String] = fruitsArray.toIterator    // also fruitsList.iterator
+   val fruitsStream: Stream[String] = fruitsArray.toStream       // also fruitsList.toStream
+```
+```java
+   // java
+   List<String> fruitsList = Arrays.asList("orange", "apple", "banana"); 
+   // pardon me, why `Arrays` when I want a list? Now, how do I create a Set?
+   Set<String> fruitSet1 = Arrays.asSet("orange", "apple", "banana");     // ERROR, no such method `asSet`. Eh.
+   Set<String> fruitSet2 = new HashSet<String>(Arrays.asList("orange", "apple", "banana"));  // Ok, here we go!
+   Set<String> fruitSet3 = Sets.newHashSet("orange", "apple", "banana");  // courtesy of Guava... but still a lot of typing
+
+   // list-array conversion
+   String[] fruitsArray = fruitsList.toArray(new String[0]);        // so you say "new String[0]" is easy/intuitive?
+   List<String> backToList = fruitsArray.toList();                  // trick not required here, arrays are not generic
+   // Iterator<String> fruitsArrayItor = ?? fruitsArray ??;         // how do I create iterator from array?
+```

@@ -1,6 +1,7 @@
 This page collects specific examples to ilustrate that these are invalid:
 * "Scala code is unreadable"
 * "We don't have time to learn new language"
+* "Programming without mutability is hard or not possible"
 
 If you know shorter (or better in any sense) solution, please let me know.
 

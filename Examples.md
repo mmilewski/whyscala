@@ -163,7 +163,8 @@ Converting collections - has to be simple
 ```java
    // java
    List<String> fruitsList = Arrays.asList("orange", "apple", "banana"); 
-   // pardon me, why `Arrays` when I want a list? Now, how do I create a Set?
+   // pardon me, why `Arrays` when I want a list? 
+   // Now, how do I create a Set?
    Set<String> fruitSet1 = Arrays.asSet("orange", "apple", "banana");     // ERROR, no such method `asSet`. Eh.
    Set<String> fruitSet2 = new HashSet<String>(Arrays.asList("orange", "apple", "banana"));  // Ok, here we go!
    Set<String> fruitSet3 = Sets.newHashSet("orange", "apple", "banana");  // courtesy of Guava... but still a lot of typing

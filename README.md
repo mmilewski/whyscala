@@ -71,56 +71,12 @@ Easy to start
 * [Java to Scala cheatsheet](http://techblog.realestate.com.au/java-to-scala-cheatsheet/) by Ken Scambler
 * [Cheatsheet. One huge Scala reference card](http://mbonaci.github.io/scala/)
 
-Better code
+Better code - [Examples](https://github.com/mmilewski/whyscala/blob/master/Examples.md)
 ===========
 
 Concise code
 ------------
 
-* Contains only the essential parts. If you need to filter a collection, you should be asked only for a predicate.
-    ```java
-    // java
-    List<Person> men = Lists.newLinkedList()    // courtesy of Guava library. Without that even more unnecessary code
-    for(Person p: people) {
-        if (p.isMan()) {
-            men.add(p);
-        }
-    }
-    // and what if I want to have both `men` and `adult men`? 
-
-    // scala
-    val men = people.filter(_.isMan)
-    val adultMen = men.filter(_.age >= 18)
-    
-    // have you ever tried partitioning the collection in Java? In Scala...
-    val (underage, adult) = people.partition(_.age < 18)
-    ```
-
-* Uses anonymous functions to get the job done
-    ```scala
-    case class Person(val name:String, val age:Int, val isMan: Boolean)
-    val people = List(
-         Person("Marcin", 20, true),     // `new` is not required becaue Person is a `case class`, not just a `class` 
-         Person("Dorota", 10, false), 
-         Person("Peter", 16, true))
-    
-    // for each man with name "Marcin" or "Peter" print his name and age
-    val goodNames = Set("Marcin", "Peter")
-    people.filter(person => person.isMan && goodNames.contains(person.name)).foreach{ person =>
-        println("${person.name} is ${person.age} years old.") 
-    }
-    ```
-    So you say it wouldn't take a lot more code in Java, eh? What if I want to do further processing on this people? In Scala, I just extract variable `folks`
-    ```scala
-    // for each man with name "Marcin" or "Peter" print his name and age
-    val goodNames = Set("Marcin", "Peter")
-    val folks = people.filter(person => person.isMan && goodNames.contains(person.name))
-    folks.foreach { person =>
-        println("${person.name} is ${person.age} years old.") 
-    }
-    folks.filter(_.age > 18).foreach(giveBeer(_))
-    ```
-    
 * Uses compiler (not developer) to generate boilerplate
     ```scala
     class Person(val name: String)
@@ -200,46 +156,6 @@ Fewer bugs
    logger.info(s"${serviceName} failed ${failures} times")
 
    ```
-
-Getting things done
--------------------
-
-* Divide a group of students from Canada by top grade and have them sorted by name. [src](http://parleys.com/play/5148922b0364bc17fc56c890/chapter35/about)
-
-    ```java
-    // java
-    
-    //
-    // ... this is a place for your code ...
-    //
-    ```
-    
-    
-    ```scala
-    // scala
-    val (topGrades, otherGrades) = studends.filter(_.country == "CA")
-                                           .sortBy(_.name)
-                                           .partition(_.grade >= 9)
-    ```
-
-
-* Check if a string contains any uppercase character.
-    ```java
-    // java
-    boolean nameHasUpperCase = false;
-    for (int i = 0; i < name.length(); ++i) { 
-        if (Character.isUpperCase(name.charAt(i))) { 
-            nameHasUpperCase = true; 
-            break; 
-        }    
-    }
-    ```
-
-    ```scala
-    // scala
-    val nameHasUpperCase = name.exists(_.isUpperCase) 
-    ```
-
 
 Access to Java libraries is easy
 ================================

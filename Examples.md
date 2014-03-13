@@ -173,3 +173,25 @@ Converting collections - has to be simple
    List<String> backToList = fruitsArray.toList();                  // trick not required here, arrays are not generic
    // Iterator<String> fruitsArrayItor = ?? fruitsArray ??;         // how do I create iterator from array?
 ```
+
+Protection against wrong placeholders or mismatching number of placeholders
+---------------------------------------------------------------------------
+```scala
+   // In Scala mechanism for String formatting averts both issues
+   val serviceName: String = "translator"
+   val failures: Int = 4
+   logger.info(s"${serviceName} failed ${failures} times")
+```
+```java
+   String serviceName = "translator";
+   int failures = 4;
+
+   // When formatting String you should use %s, %d and so on
+   logger.info(String.format("%s failed %d times.", serviceName, failures));
+   
+   // But you can also use slf4j's formatter... but the usage is different
+   logger.info("{} failed {} times.", serviceName, failures);
+   
+   // 1. If you mix these two usages, your messages becomes useless.
+   // 2. If you provide wrong number of arguments, you are in trouble.
+```

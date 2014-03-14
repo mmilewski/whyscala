@@ -99,6 +99,42 @@ Check if a string contains any uppercase character
     }
 ```
 
+Add default column to the list
+------------------------------
+```scala
+    case class Column(name: String, id: Int)
+    
+    def addDefaultColumn(cols: Seq[Column], defaultColumn: Column): Seq[Column] = {
+      if (cols.exists(_.id == defaultColumn.id)) cols else cols :+ defaultColumn
+    }
+```
+```java
+    static class Column {
+        String name;
+        Integer id;
+
+        public Column(String name, Integer id) {
+            this.name = name;
+            this.id = id;
+        }
+    }
+
+    public List<Column> addDefaultColumn(List<Column> cols, Column defaultColumn) {
+        boolean present = false;
+        for (Column col : cols) {
+            if (col.id.equals(defaultColumn.id) {
+                present = true;
+                break;
+            }
+        }
+        List<Column> result = new ArrayList<Column>(cols);  // No guarantee that `cols` is mutable.
+        if (!present) {
+            result.add(defaultColumn);
+        }
+        return result;
+    }
+```
+
 PoKeMOniZe string
 -----------------
 Quick stub method for different purposes (e.g. simplest alignment after protocol change).

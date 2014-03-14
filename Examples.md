@@ -198,6 +198,7 @@ Converting collections - has to be simple
    val backToList: List[String] = fruitsArray.toList
    val fruitsArray: Iterator[String] = fruitsArray.toIterator    // also fruitsList.iterator
    val fruitsStream: Stream[String] = fruitsArray.toStream       // also fruitsList.toStream
+
 ```
 ```java
    // java
@@ -211,7 +212,20 @@ Converting collections - has to be simple
    // list-array conversion
    String[] fruitsArray = fruitsList.toArray(new String[0]);        // so you say "new String[0]" is easy/intuitive?
    List<String> backToList = fruitsArray.toList();                  // trick not required here, arrays are not generic
-   // Iterator<String> fruitsArrayItor = ?? fruitsArray ??;         // how do I create iterator from array?
+   // Iterator<String> fruitsArrayItor = Arrays.asList(fruitsArray).iterator;
+```
+
+```scala
+   // scala
+   val translateNum: Map[Int, String] = List((1, "one"), (2, "two"), (10, "ten")).toMap
+```
+```java
+   // java
+   // well, we don't event have pairs, but for list of objects
+   Map<Integer, String> translateNum = Maps.newHashMap();      // Gauva library
+   for (MagicObject obj: objects) {
+       translateNum.put(obj.getNumber(), obj.getTranslation());
+   }
 ```
 
 Formatting string

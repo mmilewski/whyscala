@@ -102,6 +102,7 @@ Check if a string contains any uppercase character
 Add default column to the list
 ------------------------------
 ```scala
+    // scala
     case class Column(name: String, id: Int)
     
     def addDefaultColumn(cols: Seq[Column], defaultColumn: Column): Seq[Column] = {
@@ -109,6 +110,7 @@ Add default column to the list
     }
 ```
 ```java
+    // java
     static class Column {
         String name;
         Integer id;

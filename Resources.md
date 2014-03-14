@@ -78,6 +78,7 @@ Reactive Extensions
 ===================
 * Src https://github.com/Netflix/RxJava/tree/master/language-adaptors/rxjava-scala
 * Examples https://github.com/samuelgruetter/rx-playground
+* End-to-End Reactive Netflix (javascript) http://www.infoq.com/presentations/reactive-programming-netflix
 
 Big Data
 ========

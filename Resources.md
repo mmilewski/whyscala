@@ -74,6 +74,10 @@ JVM
  * Gil Tene @ InfoQ http://www.infoq.com/author/Gil-Tene
  * Choosing a Garbage Collector http://www.azulsystems.com/sites/default/files/images/Understanding_Java_Garbage_Collection_v3.pdf
 
+Reactive Extensions
+===================
+* Src https://github.com/Netflix/RxJava/tree/master/language-adaptors/rxjava-scala
+* Examples https://github.com/samuelgruetter/rx-playground
 
 Big Data
 ========

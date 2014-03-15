@@ -93,6 +93,7 @@ Play Framework
 ==============
 * Play Framework at LinkedIn http://www.slideshare.net/brikis98/the-play-framework-at-linkedin
 * Play Framework: async I/O http://www.slideshare.net/brikis98/play-framework-async-io-with-java-and-scala
+* Ultimate Guide to get started http://brikis98.blogspot.ca/2014/03/the-ultimate-guide-to-getting-started.html
  
 IntelliJ IDEA
 =============

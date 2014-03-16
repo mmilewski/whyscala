@@ -88,7 +88,13 @@ Big Data
 Functional Programming
 ======================
 * Functional Talks http://functionaltalks.org/
-
+* Functional programs rarely rot http://michaelochurch.wordpress.com/2012/12/06/functional-programs-rarely-rot/
+ * The problem, rather, is that stateful programs evolve in bad ways when programs get large.
+ * Such functions actually have precise (and usually, obviously intended) semantics which means that it’s clear what is and what is not a bug, and unit testing is relatively straightforward.
+ * An unbounded amount of intermediate stuff can be shoved into an imperative program, with no change to its interface. Or, to put it another way, with a referentially transparent function, the interface-level activity is all one needs to know about its behavior.
+ * Mutable state is an important tool, but it should almost always be construed as a performance-oriented optimization.
+ * No, there’s nothing innately superior about functional programming, but the style forces people to deal with the complexity they generate by forcing it to live at the interface level. You can’t, as easily, throw a dead rat in the code to satisfy some dipshit requirement and then forget about it.
+ 
 Play Framework
 ==============
 * Play Framework at LinkedIn http://www.slideshare.net/brikis98/the-play-framework-at-linkedin

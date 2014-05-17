@@ -1,3 +1,7 @@
+Case Studies
+======
+Read [Case Studies](http://www.typesafe.com/company/casestudies) on Typesafe's page
+
 OOYALA
 ======
 * Akka in Production
@@ -12,6 +16,7 @@ Walmart
 * Nov 2013
 * Akka, Scala, Play Framework, Typesafe platform
 * http://www.nurun.com/en/news/nurun-launches-redesigned-transactional-platform-with-walmart-canada/
+* Advice from a developer who helped rebuild Walmart.ca with Scala and Play https://medium.com/p/d1818f25b2b7 by Kevin Webber
 
 Coursera
 ========
@@ -30,3 +35,6 @@ Twitter
 
 Netflix
 =======
+
+[Gawker-Media](http://downloads.typesafe.com/website/casestudies/Gawker-Media-Case-Study.pdf)
+=============

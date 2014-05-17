@@ -46,6 +46,11 @@ Akka
 * Scala IO Excercises https://github.com/RayRoestenburg/scala-io-exercise-1
 * Cheat Sheets for Reactive Programming https://github.com/sjuvekar/reactive-programming-scala/blob/master/ReactiveCheatSheet.md
 * The Road to Akka Cluster and Beyond (Jonas Bonér) http://www.slideshare.net/jboner/the-road-to-akka-cluster-and-beyond
+* http://www.infoq.com/presentations/akka-design-patterns/ (Jamie Allen)
+  * Guaranteed Delivery Doesn't Exist - Akka will do something at most once.
+  * Mailboxes - Durable Mailboxes = don't; No guarantee the message will even get to the mailbox
+  * We don't know what messages don't get to us
+  * Build sources of truth, then make system respond to it. Things may get lost somewhere in between; Build Sentinels responsible for querying the source of truth and align actor to it
 
 Akka at Conspire
 ----------------

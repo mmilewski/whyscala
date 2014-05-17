@@ -51,6 +51,8 @@ Akka
   * Mailboxes - Durable Mailboxes = don't; No guarantee the message will even get to the mailbox
   * We don't know what messages don't get to us
   * Build sources of truth, then make system respond to it. Things may get lost somewhere in between; Build Sentinels responsible for querying the source of truth and align actor to it
+    * System is resilient to messages it didn't receive
+    * System is less comples than attempting to guarantee no message loss
 
 Akka at Conspire
 ----------------

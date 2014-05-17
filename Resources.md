@@ -9,6 +9,8 @@ Scala
  * http://danielwestheide.com/blog/archives/
 * Resources for Getting Started With Functional Programming and Scala 
  * http://nerd.kelseyinnis.com/blog/2013/01/07/resources-for-getting-started-with-functional-programming-and-scala/
+* Language
+ * Scala's Types of Types http://ktoso.github.io/scala-types-of-types/ (Konrad ktoso Malawski)
 * Cake Pattern
  * Component configuration http://fr.slideshare.net/DerekWyatt1/baking-delicious-modularity-in-scala (Derek Wyatt)
 * Compiler

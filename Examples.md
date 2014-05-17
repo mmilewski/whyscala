@@ -26,31 +26,6 @@ Simple filtering
     // them separate.
 ```
 
-Another example + string interpolation
-```scala
-    case class Person(val name:String, val age:Int, val isMan: Boolean)
-    val people = List(
-         Person("Marcin", 20, true),  // `new` is not required becaue Person is a `case class`, not just a `class` 
-         Person("Dorota", 10, false), 
-         Person("Peter", 16, true))
-    
-    // for each man with name "Marcin" or "Peter" print his name and age
-    val goodNames = Set("Marcin", "Peter")
-    people.filter(person => person.isMan && goodNames.contains(person.name)).foreach{ person =>
-        println(s"${person.name} is ${person.age} years old.") 
-    }
-```
-So you say it wouldn't take a lot more code in Java, eh? What if I want to do further processing on these filtered people? In Scala, I just extract variable `folks`
-```scala
-    // for each man with name "Marcin" or "Peter" print his name and age
-    val goodNames = Set("Marcin", "Peter")
-    val folks = people.filter(person => person.isMan && goodNames.contains(person.name))
-    folks.foreach { person =>
-        println(s"${person.name} is ${person.age} years old.") 
-    }
-    folks.filter(_.age > 18).foreach(giveBeer(_))
-```
-
 Partitioning, Grouping
 ----------------------
 ```scala
@@ -64,6 +39,39 @@ Partitioning, Grouping
 ```java
    // java
    Give it a try!
+```
+
+Sorting
+-------
+```scala
+    // scala
+    val items: List[String] = ...
+    val sortedItems = items.sorted    // could it be more obvious?
+
+    // list to sorted set
+    val sortedItems = items.to[SortedSet]
+    // or
+    val sortedItems = SortedSet(items : _*)    // Analogous to Python's foo(*items) mechanism
+```
+```java
+    // java
+
+    // Not so obvious version - I worked it out when wondering what is this FluentIterable thing in Guava API.
+    // Where to take instance of Comparator for basic types was also not so obvious.
+    List<String> items = ...;  // can be immutable/unmodifiable
+    List<String> sortedItems = FluentIterable.from(items).toSortedList(Ordering.natural());
+
+    // More common version, I guess.
+    List<String> items = ...;   // can be immutable/unmodifiable, so we have to make a new list
+    ArrayList<String> modifiableItems = new ArrayList<String>(items);
+    Collections.sort(modifiableItems);
+    List<String> sortedItems = modifiableItems;
+
+    // list to sorted set
+    SortedSet<String> sortedItems = FluentIterable.from(items).toSortedSet(Ordering.natural());
+    // or
+    SortedSet<String> sortedItems = new TreeSet(items);
+
 ```
 
 Power of filtering + sorting + partitioning
@@ -99,14 +107,38 @@ Check if a string contains any uppercase character
     }
 ```
 
-Add default column to the list
-------------------------------
+Calculate number of instances of each word in a document
+--------------------------------------------------------
+```scala
+// scala
+reader.lines()
+      .flatMap(_.split(" "))
+      .groupBy(identity)
+      .mapValues(_.size)
+```
+
+```java
+// java 8
+reader.lines()
+      .flatMap(s -> s.splitAsStream(" "))
+      .collect(groupingBy(s -> s,
+               counting()));
+// or
+reader.lines()
+      .flatMap(s -> s.splitAsStream(" "))
+      .collect(groupingBy(s -> s,
+               reducing(s -> 1, Integer::sum)));
+```
+Reference: http://www.parleys.com/play/530758c5e4b06b7f61f3fba8/chapter61/about
+
+Add required column to the list
+-------------------------------
 ```scala
     // scala
     case class Column(name: String, id: Int)
     
-    def addDefaultColumn(cols: Seq[Column], defaultColumn: Column): Seq[Column] = {
-      if (cols.exists(_.id == defaultColumn.id)) cols else cols :+ defaultColumn
+    def appendColumnIfNotPresent(cols: Seq[Column], requiredColumn: Column): Seq[Column] = {
+      if (cols.exists(_.id == requiredColumn.id)) cols else cols :+ requiredColumn
     }
 ```
 ```java
@@ -121,19 +153,24 @@ Add default column to the list
         }
     }
 
-    public List<Column> addDefaultColumn(List<Column> cols, Column defaultColumn) {
+    public List<Column> appendColumnIfNotPresent(List<Column> cols, Column requiredColumn) {
         boolean present = false;
         for (Column col : cols) {
-            if (col.id.equals(defaultColumn.id) {
+            if (col.id.equals(requiredColumn.id) {
                 present = true;
                 break;
             }
         }
-        List<Column> result = new ArrayList<Column>(cols);  // No guarantee that `cols` is mutable.
+
         if (!present) {
-            result.add(defaultColumn);
+            // No guarantee that `cols` is mutable, so we have to make a copy.
+            List<Column> result = new ArrayList<Column>(cols);
+            result.add(requiredColumn);
+            return Collections.unmodifiableList(result);
+            // Alternative version using Guava
+            return new ImmutableList.Builder<Column>().addAll(cols).add(requiredColumn).build();
         }
-        return result;
+        return Collections.unmodifiableList(result);
     }
 ```
 
@@ -141,9 +178,15 @@ PoKeMOniZe string
 -----------------
 Quick stub method for different purposes (e.g. simplest alignment after protocol change).
 ```scala
-  // scala
-  def pokemonize(str: String): String = str.map(char => if (Random.nextBoolean()) char.toUpper else char.toLower)
-  def pokemonize(strings: Traversable[String]): Traversable[String] = strings.map(pokemonize)
+    // scala
+    def pokemonize(str: String): String = {
+        str.map(char => if (Random.nextBoolean()) char.toUpper else char.toLower)
+    }
+
+    def pokemonizeAll(strings: Traversable[String]): Traversable[String] = strings.map(pokemonize)
+
+    println(pokemonize("hello hello"))   // e.g. HeLLo woRLD
+    println(pokemonizeAll(Seq("hello", "world")))  // e.g. Seq(hELlo, WorlD)
 ```
 ```java
     // java
@@ -160,12 +203,30 @@ Quick stub method for different purposes (e.g. simplest alignment after protocol
         return sb.toString();
     }
 
-     List<String> pokemonize(Collection<String> strings) {
+     List<String> pokemonizeAll(Collection<String> strings) {
         List<String> result = new ArrayList<String>();
         for (String s : strings) {
             result.add(pokemonize(result));
         }
         return result;
+    }
+```
+### Pokemonize part of string
+The other day you would like to consider only part of input string as input. It would be 
+```scala
+    // scala
+    def pokemonizeLastPart(str: String): String = pokemonize(str.split('.').last)
+```
+```java
+    // java
+    public String pokemonizeLastPart(String str) {
+        String[] parts = str.split("\\.");
+        return parts[parts.length-1];
+    }
+
+    // alternative
+    public String pokemonizeLastPart(String str) {
+        return Iterables.getLast(Arrays.asList(str.split("\\.")));
     }
 ```
 
@@ -199,6 +260,14 @@ Converting collections - has to be simple
    val fruitsArray: Iterator[String] = fruitsArray.toIterator    // also fruitsList.iterator
    val fruitsStream: Stream[String] = fruitsArray.toStream       // also fruitsList.toStream
 
+   // Those methods are added for your convenience. General mechanism looks like this:
+   val fruitsSet: Set[String] = fruitsArray.to[Set]
+   val fruitsArray: Array[String] = fruitsArray.to[Array]
+   // this flexibility allows you to create any collection!
+   val fruitsBuffer: Buffer[String] = fruitsArray.to[ListBuffer]
+   val fruitsSortedSet: SortedSet[String] = fruitsArray.to[SortedSet]
+   val fruitsDLList: DoubleLinkedList[String] = fruitsArray.to[DoubleLinkedList]
+
 ```
 ```java
    // java
@@ -214,18 +283,23 @@ Converting collections - has to be simple
    List<String> backToList = fruitsArray.toList();                  // trick not required here, arrays are not generic
    // Iterator<String> fruitsArrayItor = Arrays.asList(fruitsArray).iterator;
 ```
-
+### Convert list of pairs to map
 ```scala
    // scala
    val translateNum: Map[Int, String] = List((1, "one"), (2, "two"), (10, "ten")).toMap
 ```
+Well, we don't event have pairs in Java. However, for list of objects it would be
 ```java
    // java
-   // well, we don't event have pairs, but for list of objects
    Map<Integer, String> translateNum = Maps.newHashMap();      // Gauva library
    for (MagicObject obj: objects) {
        translateNum.put(obj.getNumber(), obj.getTranslation());
    }
+```
+Scala version of such transformation would be
+```scala
+    // scala
+    val translateNum: Map[Int, String] = objects.map(obj => (obj.getNumber(), obj.getTranslation())).toMap
 ```
 
 Formatting string

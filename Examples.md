@@ -185,7 +185,7 @@ Quick stub method for different purposes (e.g. simplest alignment after protocol
 
     def pokemonizeAll(strings: Traversable[String]): Traversable[String] = strings.map(pokemonize)
 
-    println(pokemonize("hello hello"))   // e.g. HeLLo woRLD
+    println(pokemonize("hello world"))   // e.g. HeLLo woRLD
     println(pokemonizeAll(Seq("hello", "world")))  // e.g. Seq(hELlo, WorlD)
 ```
 ```java

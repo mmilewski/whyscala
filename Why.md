@@ -39,7 +39,7 @@ So why?
 > Today’s computing environments are moving towards multicore hardware and cloud computing workloads. Typesafe is strategically positioned to provide innovate solutions with its modern Scala and Akka-based software stack and developer tools for the next wave of applications.
 > *Rod Johnson*
 
-Readable and Concise code - [[Examples]]
+Readable and Concise code - [Examples](https://github.com/mmilewski/whyscala/blob/master/Examples.md)
 =========================
 
 What others say?

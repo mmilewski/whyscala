@@ -180,7 +180,8 @@ Quick stub method for different purposes (e.g. simplest alignment after protocol
 ```scala
     // scala
     def pokemonize(str: String): String = {
-        str.map(char => if (Random.nextBoolean()) char.toUpper else char.toLower)
+        def selectLetterCase(char: Char) = if (Random.nextBoolean()) char.toUpper else char.toLower
+        str.map(selectLetterCase)
     }
 
     def pokemonizeAll(strings: Traversable[String]): Traversable[String] = strings.map(pokemonize)

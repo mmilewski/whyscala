@@ -26,6 +26,22 @@ Typeclasses
   * stephenjudkins / pureimage https://github.com/stephenjudkins/pureimage
 * Typeclass Pattern - An Alternative to Inheritance http://www.youtube.com/watch?v=yYo0gANYViE
 
+Presentations
+-------------
+* http://www.infoq.com/presentations/scala-tips-tricks
+  * Type Aliases
+  * Class Tag, Type Tag
+  * Auto-lifted partial functions
+  * NoStackTrace trait
+  
+  * Type Classes, Context Bounds, Implicitly
+  * @ImplicitNotFound
+  * Low Priority Default Implicits (Predef.scala)
+  * ScalaDoc: where does SCala look for implicits?
+  * Slides Implicits in Scala by Derek Wyatt
+  * Neophyte's Guite to Scala by Daniel Westhside
+
+
 Distributed Systems, Akka
 =========================
 

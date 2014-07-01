@@ -1,6 +1,7 @@
 Case Studies
 ======
-Read [Case Studies](http://www.typesafe.com/company/casestudies) on Typesafe's page
+* Read [Case Studies](http://www.typesafe.com/company/casestudies) on Typesafe's page
+* Why some companies perform so much better https://www.intrapreneur.nl/2014/06/05/companies-perform-much-better/
 
 OOYALA
 ======

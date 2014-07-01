@@ -50,6 +50,7 @@ Distributed Systems, Akka
 * Distributed systems meta list https://gist.github.com/macintux/6227368
 * Distributed systems for fun and profit http://book.mixu.net/distsys/
 * [Lesson learned] The network is reliable http://aphyr.com/posts/288-the-network-is-reliable
+* Akka Clustering, Step by Step http://tersesystems.com/2014/06/25/akka-clustering/
 
 Congestion avoidance, backpressure
 ----------------------------------

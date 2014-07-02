@@ -110,6 +110,9 @@ Big Data
 ========
 * Big Data using Scala https://speakerdeck.com/samklr/big-data-using-scala
  * Scalding, Spark
+* Databricks makes Hadoop and Apache Spark easy to use http://www.zdnet.com/databricks-makes-hadoop-and-apache-spark-easy-to-use-7000031115/
+  * The company is offering a cloud service, Databricks Cloud, that makes it possible for organizations to quickly get started with Apache Spark. Databricks Cloud handles the metadata, launching and provisioning a Spark Cluster, and makes it easy for that cluster to process an organization's data stored in Amazon's S3 service.
+  * Databricks cloud helps analysts by organizing the data into "notebooks" and making it easy to visualize data through the use of dashboards. It also makes it easy to analyze data using machine learning (MLib), GraphX and Spark SQL.
 
 Functional Programming
 ======================

@@ -144,3 +144,6 @@ Scala.js
 * http://www.scala-js-fiddle.com/
 * Live coding http://vimeo.com/87845442 by Li Haoyi 
 
+Jobs
+====
+* Typesafe Together http://typesafe.com/how/together/our-customers-are-hiring

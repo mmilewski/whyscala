@@ -41,7 +41,6 @@ Presentations
   * Slides Implicits in Scala by Derek Wyatt
   * Neophyte's Guite to Scala by Daniel Westhside
 
-
 Distributed Systems, Akka
 =========================
 * Designing a Concurrent Application http://learnyousomeerlang.com/content (Learn you some Erlang)
@@ -113,6 +112,7 @@ Big Data
   * The company is offering a cloud service, Databricks Cloud, that makes it possible for organizations to quickly get started with Apache Spark. Databricks Cloud handles the metadata, launching and provisioning a Spark Cluster, and makes it easy for that cluster to process an organization's data stored in Amazon's S3 service.
   * Databricks cloud helps analysts by organizing the data into "notebooks" and making it easy to visualize data through the use of dashboards. It also makes it easy to analyze data using machine learning (MLib), GraphX and Spark SQL.
 * Spark should be better than MapReduce (if only it worked) http://blog.explainmydata.com/2014/05/spark-should-be-better-than-mapreduce.html?m=1 (Alex Rubinsteyn)
+* Hands-on Exercises http://ampcamp.berkeley.edu/big-data-mini-course/
 
 Functional Programming
 ======================

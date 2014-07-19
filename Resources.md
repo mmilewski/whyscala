@@ -16,6 +16,7 @@ Scala
 * Compiler
  * Useful Scalac Flags https://gist.github.com/tpolecat/8812750
  * wartremover https://github.com/puffnfresh/wartremover
+* Scala Days 2014 http://www.parleys.com/channel/53a7d269e4b0543940d9e535/presentations?sort=views&state=public
 
 Typeclasses
 -----------

@@ -56,6 +56,7 @@ Papers
 * Probabilistically Bounded Staleness for Practical Partial Quorums http://www.eecs.berkeley.edu/Pubs/TechRpts/2012/EECS-2012-4.pdf (Peter Bailis)
  * Interactive demo http://pbs.cs.berkeley.edu/
 * Readings in distributed systems http://christophermeiklejohn.com/distributed/systems/2013/07/12/readings-in-distributed-systems.html
+* Dynamo: Amazon’s Highly Available Key-value Store http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf
 
 Congestion avoidance, backpressure
 ----------------------------------

@@ -51,6 +51,11 @@ Distributed Systems, Akka
 * [Lesson learned] The network is reliable http://aphyr.com/posts/288-the-network-is-reliable
 * Akka Clustering, Step by Step http://tersesystems.com/2014/06/25/akka-clustering/
 
+Papers
+-------
+* Probabilistically Bounded Staleness for Practical Partial Quorums http://www.eecs.berkeley.edu/Pubs/TechRpts/2012/EECS-2012-4.pdf (Peter Bailis)
+ * Interactive demo http://pbs.cs.berkeley.edu/
+
 Congestion avoidance, backpressure
 ----------------------------------
 * Congestion Avoidance and Control http://ee.lbl.gov/papers/congavoid.pdf (Van Jacobson)

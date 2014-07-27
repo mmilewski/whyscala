@@ -131,7 +131,7 @@ Functional Programming
  * An unbounded amount of intermediate stuff can be shoved into an imperative program, with no change to its interface. Or, to put it another way, with a referentially transparent function, the interface-level activity is all one needs to know about its behavior.
  * Mutable state is an important tool, but it should almost always be construed as a performance-oriented optimization.
  * No, there’s nothing innately superior about functional programming, but the style forces people to deal with the complexity they generate by forcing it to live at the interface level. You can’t, as easily, throw a dead rat in the code to satisfy some dipshit requirement and then forget about it.
- 
+
 Play Framework
 ==============
 * Play Framework at LinkedIn http://www.slideshare.net/brikis98/the-play-framework-at-linkedin
@@ -141,6 +141,8 @@ Play Framework
         * https://github.com/brikis98/ping-play
         * http://www.slideshare.net/brikis98/composable-and-streamable-play-apps
  
+* Optimizing Play for Production https://www.youtube.com/watch?v=cnPPLpIk9mo (James Ward)
+
 IntelliJ IDEA
 =============
 * Working With IntelliJ IDEA (+VisualVM) http://www.scalacourses.com/student/showLecture/80

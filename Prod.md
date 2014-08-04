@@ -31,9 +31,14 @@ Coursera
 LinkedIn
 ========
 * The Play Framework at LinkedIn http://www.slideshare.net/brikis98/the-play-framework-at-linkedin 
+* https://engineering.linkedin.com/tags/scala
+* Kafka http://kafka.apache.org/
 
 Twitter
 =======
+* http://twitter.github.io/
+ * Finagle http://twitter.github.io/finagle/
+ * Scaling https://github.com/twitter/scalding
 
 Netflix
 =======

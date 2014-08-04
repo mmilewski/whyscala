@@ -26,6 +26,7 @@ Coursera
 * Feb 2014
 * Moved from PHP. Considered also Python/Django but it didn't provide good concurrency and speed (dynamically typed language)
 * Why we love Scala at Coursera http://tech.coursera.org/blog/2014/02/18/why-we-love-scala-at-coursera/
+  * while learning Scala does not happen overnight, Coursera’s culture deeply values learning and education both for our students and our employees. We enjoy teaching each other new concepts and stretching the boundaries of our knowledge.
 
 LinkedIn
 ========

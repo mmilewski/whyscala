@@ -42,9 +42,10 @@ Presentations
   * Slides Implicits in Scala by Derek Wyatt
   * Neophyte's Guite to Scala by Daniel Westhside
 
-News
-----
+News and Link hubs
+------------------
 * Scala Times http://us2.campaign-archive2.com/home/?u=ba834c562d82d9aba5eaf90ba&id=32cef9ab4e
+* Awesome Scala https://github.com/lauris/awesome-scala
 
 Distributed Systems, Akka
 =========================

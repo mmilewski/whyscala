@@ -42,6 +42,10 @@ Presentations
   * Slides Implicits in Scala by Derek Wyatt
   * Neophyte's Guite to Scala by Daniel Westhside
 
+News
+----
+* Scala Times http://us2.campaign-archive2.com/home/?u=ba834c562d82d9aba5eaf90ba&id=32cef9ab4e
+
 Distributed Systems, Akka
 =========================
 * Designing a Concurrent Application http://learnyousomeerlang.com/content (Learn you some Erlang)
@@ -78,6 +82,7 @@ Akka
   * Build sources of truth, then make system respond to it. Things may get lost somewhere in between; Build Sentinels responsible for querying the source of truth and align actor to it
     * System is resilient to messages it didn't receive
     * System is less comples than attempting to guarantee no message loss
+* A handful Akka techniques http://manuel.bernhardt.io/2014/04/23/a-handful-akka-techniques/
 
 Akka at Conspire
 ----------------

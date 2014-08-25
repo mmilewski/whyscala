@@ -127,6 +127,8 @@ Big Data
   * Databricks cloud helps analysts by organizing the data into "notebooks" and making it easy to visualize data through the use of dashboards. It also makes it easy to analyze data using machine learning (MLib), GraphX and Spark SQL.
 * Spark should be better than MapReduce (if only it worked) http://blog.explainmydata.com/2014/05/spark-should-be-better-than-mapreduce.html?m=1 (Alex Rubinsteyn)
 * Hands-on Exercises http://ampcamp.berkeley.edu/big-data-mini-course/
+* Summingbird: A Framework for Integrating Batch and
+Online MapReduce Computations http://www.vldb.org/pvldb/vol7/p1441-boykin.pdf
 
 Functional Programming
 ======================

@@ -9,3 +9,11 @@ SQS
 
 EC2
 * Compare cost of different EC2 configurations http://www.ec2instances.info/
+
+DynamoDB
+* Powering Gaming Applications with Amazon DynamoDB http://blogs.aws.amazon.com/bigdata/post/Tx27Y7HOQ4V6393/Powering-Gaming-Applications-with-Amazon-DynamoDB
+  * support thousands of players for the price of a daily cup of coffee
+  * fake_dynamo https://github.com/ananthakumaran/fake_dynamo
+  * auto-incrementing primary keys become a bottleneck. Use UUID
+  * Dynamic DynamoDB manages the process of scaling the provisioned throughput for your DynamoDB tables
+    * http://aws.amazon.com/blogs/aws/auto-scale-dynamodb-with-dynamic-dynamodb/

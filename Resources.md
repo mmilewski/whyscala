@@ -55,6 +55,7 @@ Distributed Systems, Akka
 * Distributed systems for fun and profit http://book.mixu.net/distsys/
 * [Lesson learned] The network is reliable http://aphyr.com/posts/288-the-network-is-reliable
 * Akka Clustering, Step by Step http://tersesystems.com/2014/06/25/akka-clustering/
+* Distributed in Space and Time (Roland Kuhn @ Scalapeño 2014) https://parleys.com/play/545b4d2ae4b08fbc478d8bf9
 
 Papers
 -------
@@ -62,6 +63,8 @@ Papers
  * Interactive demo http://pbs.cs.berkeley.edu/
 * Readings in distributed systems http://christophermeiklejohn.com/distributed/systems/2013/07/12/readings-in-distributed-systems.html
 * Dynamo: Amazon’s Highly Available Key-value Store http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf
+* Google MillWheel: Fault-Tolerant Stream Processing at
+Internet Scale http://static.googleusercontent.com/media/research.google.com/pl//pubs/archive/41378.pdf
 
 Congestion avoidance, backpressure
 ----------------------------------

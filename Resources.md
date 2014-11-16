@@ -57,19 +57,6 @@ Distributed Systems, Akka
 * Akka Clustering, Step by Step http://tersesystems.com/2014/06/25/akka-clustering/
 * Distributed in Space and Time (Roland Kuhn @ Scalapeño 2014) https://parleys.com/play/545b4d2ae4b08fbc478d8bf9
 
-Papers
--------
-* Probabilistically Bounded Staleness for Practical Partial Quorums http://www.eecs.berkeley.edu/Pubs/TechRpts/2012/EECS-2012-4.pdf (Peter Bailis)
- * Interactive demo http://pbs.cs.berkeley.edu/
-* Readings in distributed systems http://christophermeiklejohn.com/distributed/systems/2013/07/12/readings-in-distributed-systems.html
-* Dynamo: Amazon’s Highly Available Key-value Store http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf
-* Google MillWheel: Fault-Tolerant Stream Processing at
-Internet Scale http://static.googleusercontent.com/media/research.google.com/pl//pubs/archive/41378.pdf
-
-Congestion avoidance, backpressure
-----------------------------------
-* Congestion Avoidance and Control http://ee.lbl.gov/papers/congavoid.pdf (Van Jacobson)
- 
 Akka
 -----
 * Scaling out with Akka Actors http://www.infoq.com/presentations/akka-scala-actors-distributed-system (Joshua Suereth)
@@ -95,6 +82,19 @@ Akka at Conspire
 * Akka at Conspire [Part 3]: Making Your Akka Life Easier http://blog.goconspire.com/post/64412850756/akka-at-conspire-part-3-making-your-akka-life-easier
 * Akka at Conspire [Part 4]: Don’t Fall Into Our Anti-Pattern Traps http://blog.goconspire.com/post/64780988287/akka-at-conspire-part-4-dont-fall-into-our
 * Akka at Conspire [Part 5]: The Importance of Pulling http://blog.goconspire.com/post/64901258135/akka-at-conspire-part-5-the-importance-of-pulling
+
+Papers
+-------
+* Probabilistically Bounded Staleness for Practical Partial Quorums http://www.eecs.berkeley.edu/Pubs/TechRpts/2012/EECS-2012-4.pdf (Peter Bailis)
+ * Interactive demo http://pbs.cs.berkeley.edu/
+* Readings in distributed systems http://christophermeiklejohn.com/distributed/systems/2013/07/12/readings-in-distributed-systems.html
+* Dynamo: Amazon’s Highly Available Key-value Store http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf
+* Google MillWheel: Fault-Tolerant Stream Processing at
+Internet Scale http://static.googleusercontent.com/media/research.google.com/pl//pubs/archive/41378.pdf
+
+Congestion avoidance, backpressure
+----------------------------------
+* Congestion Avoidance and Control http://ee.lbl.gov/papers/congavoid.pdf (Van Jacobson)
 
 JVM
 ===

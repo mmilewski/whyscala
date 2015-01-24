@@ -29,3 +29,6 @@ DynamoDB
   * Ddb request should be idempotent due to timeout and retry. Watch for conditional writes, e.g. write succeeds, client times out, client retries and gets an error.
   * Test behavior at throughput limit
   * Reads are a lot cheaper than writes. If the item most likely exists, do read first as this will allow you to save write unit.
+
+* What if DynamoDB doesn't have enough write capacity and we don't want to throttle our clients?
+ * You can put SQS between the Endpoint and DynamoDB. See https://www.youtube.com/watch?v=Z2gfP_rtAhw&t=19m

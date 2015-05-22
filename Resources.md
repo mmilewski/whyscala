@@ -58,6 +58,8 @@ Distributed Systems, Akka
 * Akka Clustering, Step by Step http://tersesystems.com/2014/06/25/akka-clustering/
 * Distributed in Space and Time (Roland Kuhn @ Scalapeño 2014) https://parleys.com/play/545b4d2ae4b08fbc478d8bf9
 * How Complex Systems Fail http://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf
+* A comprehensive study of Convergent and Commutative
+Replicated Data Types http://hal.upmc.fr/inria-00555588/document
 
 Akka
 -----
